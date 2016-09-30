@@ -4,7 +4,7 @@
 //
 //  Created by Thiago Calcagniti on 06/01/16.
 //  Copyright © 2016 Calcagniti. All rights reserved.
-//  Initial Commit
+//  
 
 import UIKit
 import Parse
