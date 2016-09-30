@@ -1,0 +1,1427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF05F0DF1D83D23F00C4D963 /* ViewOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF05F0DD1D83D23F00C4D963 /* ViewOfferViewController.swift */; };
+		AF05F0E21D83D39200C4D963 /* ViewOfferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF05F0E11D83D39200C4D963 /* ViewOfferViewController.xib */; };
+		AF05F0E91D84C46E00C4D963 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = AF05F0E61D84C46E00C4D963 /* UIBarButtonItem+Badge.m */; };
+		AF05F0EA1D84C46E00C4D963 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = AF05F0E81D84C46E00C4D963 /* UIButton+Badge.m */; };
+		AF05F0EC1D85FA3000C4D963 /* closeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AF05F0EB1D85FA3000C4D963 /* closeButton.png */; };
+		AF25F0571D8B212C004E5079 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25F0561D8B212C004E5079 /* TransitionManager.swift */; };
+		AF25F0591D91BFBD004E5079 /* TransitionManager2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25F0581D91BFBD004E5079 /* TransitionManager2.swift */; };
+		AF25F0621D95AEBA004E5079 /* IAPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25F0601D95AEBA004E5079 /* IAPViewController.swift */; };
+		AF25F0651D95AEFC004E5079 /* IAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF25F0641D95AEFC004E5079 /* IAPViewController.xib */; };
+		AF34236A1D78A0580079AA47 /* acessoriesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423021D78A0580079AA47 /* acessoriesIcon.png */; };
+		AF34236B1D78A0580079AA47 /* backgroundCloset.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423031D78A0580079AA47 /* backgroundCloset.png */; };
+		AF34236C1D78A0580079AA47 /* backgroundClosets.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423041D78A0580079AA47 /* backgroundClosets.png */; };
+		AF34236D1D78A0580079AA47 /* basketClothesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423051D78A0580079AA47 /* basketClothesIcon.png */; };
+		AF34236E1D78A0580079AA47 /* bikinisIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423061D78A0580079AA47 /* bikinisIcon.png */; };
+		AF34236F1D78A0580079AA47 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423071D78A0580079AA47 /* camera.png */; };
+		AF3423701D78A0580079AA47 /* closetBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423081D78A0580079AA47 /* closetBackground.png */; };
+		AF3423711D78A0580079AA47 /* clothesStand.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423091D78A0580079AA47 /* clothesStand.png */; };
+		AF3423721D78A0580079AA47 /* controlPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34230A1D78A0580079AA47 /* controlPoint.png */; };
+		AF3423731D78A0580079AA47 /* customCrop.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34230B1D78A0580079AA47 /* customCrop.png */; };
+		AF3423741D78A0580079AA47 /* dressIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34230C1D78A0580079AA47 /* dressIcon.png */; };
+		AF3423751D78A0580079AA47 /* editText.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34230D1D78A0580079AA47 /* editText.png */; };
+		AF3423761D78A0580079AA47 /* fitnessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34230E1D78A0580079AA47 /* fitnessIcon.png */; };
+		AF3423771D78A0580079AA47 /* getAlbum.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34230F1D78A0580079AA47 /* getAlbum.png */; };
+		AF3423781D78A0580079AA47 /* gorgeousCloset.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423101D78A0580079AA47 /* gorgeousCloset.png */; };
+		AF3423791D78A0580079AA47 /* ikeaCloset.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423111D78A0580079AA47 /* ikeaCloset.png */; };
+		AF34237A1D78A0580079AA47 /* jacketsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423121D78A0580079AA47 /* jacketsIcon.png */; };
+		AF34237B1D78A0580079AA47 /* menuShow.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423131D78A0580079AA47 /* menuShow.png */; };
+		AF34237C1D78A0580079AA47 /* name.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423141D78A0580079AA47 /* name.png */; };
+		AF34237D1D78A0580079AA47 /* pantsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423151D78A0580079AA47 /* pantsIcon.png */; };
+		AF34237E1D78A0580079AA47 /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423161D78A0580079AA47 /* scissors.png */; };
+		AF34237F1D78A0580079AA47 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423171D78A0580079AA47 /* search.png */; };
+		AF3423801D78A0580079AA47 /* shirtsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423181D78A0580079AA47 /* shirtsIcon.png */; };
+		AF3423811D78A0580079AA47 /* shirtsIconAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423191D78A0580079AA47 /* shirtsIconAdd.png */; };
+		AF3423821D78A0580079AA47 /* shoesCloset.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34231A1D78A0580079AA47 /* shoesCloset.png */; };
+		AF3423831D78A0580079AA47 /* shoesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34231B1D78A0580079AA47 /* shoesIcon.png */; };
+		AF3423841D78A0580079AA47 /* shoesIconAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34231C1D78A0580079AA47 /* shoesIconAdd.png */; };
+		AF3423851D78A0580079AA47 /* skirtsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34231D1D78A0580079AA47 /* skirtsIcon.png */; };
+		AF3423861D78A0580079AA47 /* socketsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34231E1D78A0580079AA47 /* socketsIcon.png */; };
+		AF3423871D78A0580079AA47 /* standardCloset.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34231F1D78A0580079AA47 /* standardCloset.png */; };
+		AF3423881D78A0580079AA47 /* sutiasIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423201D78A0580079AA47 /* sutiasIcon.png */; };
+		AF3423891D78A0580079AA47 /* takeShot.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423211D78A0580079AA47 /* takeShot.png */; };
+		AF34238A1D78A0580079AA47 /* takeShotBig.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423221D78A0580079AA47 /* takeShotBig.png */; };
+		AF34238B1D78A0580079AA47 /* tShirtsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423231D78A0580079AA47 /* tShirtsIcon.png */; };
+		AF34238C1D78A0580079AA47 /* underwearsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423241D78A0580079AA47 /* underwearsIcon.png */; };
+		AF34238D1D78A0580079AA47 /* woodCloset.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423251D78A0580079AA47 /* woodCloset.png */; };
+		AF34238E1D78A0580079AA47 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423271D78A0580079AA47 /* 12.png */; };
+		AF34238F1D78A0580079AA47 /* clothesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423281D78A0580079AA47 /* clothesIcon.png */; };
+		AF3423901D78A0580079AA47 /* clothesLoginThemeSong3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF3423291D78A0580079AA47 /* clothesLoginThemeSong3.mp3 */; };
+		AF3423911D78A0580079AA47 /* facebookSignInIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34232A1D78A0580079AA47 /* facebookSignInIcon.png */; };
+		AF3423921D78A0580079AA47 /* launcherScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34232B1D78A0580079AA47 /* launcherScreen.png */; };
+		AF3423931D78A0580079AA47 /* loginBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34232C1D78A0580079AA47 /* loginBackground.png */; };
+		AF3423941D78A0580079AA47 /* loginBackground02.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34232D1D78A0580079AA47 /* loginBackground02.png */; };
+		AF3423951D78A0580079AA47 /* logoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34232E1D78A0580079AA47 /* logoIcon.png */; };
+		AF3423961D78A0580079AA47 /* newLogoText.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34232F1D78A0580079AA47 /* newLogoText.png */; };
+		AF3423971D78A0580079AA47 /* passwordIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423301D78A0580079AA47 /* passwordIcon.png */; };
+		AF3423981D78A0580079AA47 /* signInButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423311D78A0580079AA47 /* signInButton.png */; };
+		AF34239A1D78A0580079AA47 /* usernameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423331D78A0580079AA47 /* usernameIcon.png */; };
+		AF34239B1D78A0580079AA47 /* aniversario.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423351D78A0580079AA47 /* aniversario.png */; };
+		AF34239C1D78A0580079AA47 /* campo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423361D78A0580079AA47 /* campo.png */; };
+		AF34239D1D78A0580079AA47 /* churrasco.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423371D78A0580079AA47 /* churrasco.png */; };
+		AF34239E1D78A0580079AA47 /* cotidiano.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423381D78A0580079AA47 /* cotidiano.png */; };
+		AF34239F1D78A0580079AA47 /* esporte.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423391D78A0580079AA47 /* esporte.png */; };
+		AF3423A01D78A0580079AA47 /* festa.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34233A1D78A0580079AA47 /* festa.png */; };
+		AF3423A11D78A0580079AA47 /* festaFantasia.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34233B1D78A0580079AA47 /* festaFantasia.png */; };
+		AF3423A21D78A0580079AA47 /* inverno.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34233C1D78A0580079AA47 /* inverno.png */; };
+		AF3423A31D78A0580079AA47 /* lacessoriesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34233D1D78A0580079AA47 /* lacessoriesIcon.png */; };
+		AF3423A41D78A0580079AA47 /* lbikinisIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34233E1D78A0580079AA47 /* lbikinisIcon.png */; };
+		AF3423A51D78A0580079AA47 /* lblousesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34233F1D78A0580079AA47 /* lblousesIcon.png */; };
+		AF3423A61D78A0580079AA47 /* ldressIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423401D78A0580079AA47 /* ldressIcon.png */; };
+		AF3423A71D78A0580079AA47 /* lfitnessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423411D78A0580079AA47 /* lfitnessIcon.png */; };
+		AF3423A81D78A0580079AA47 /* ljacketsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423421D78A0580079AA47 /* ljacketsIcon.png */; };
+		AF3423A91D78A0580079AA47 /* lmoletonsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423431D78A0580079AA47 /* lmoletonsIcon.png */; };
+		AF3423AA1D78A0580079AA47 /* looksBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423441D78A0580079AA47 /* looksBackground.png */; };
+		AF3423AB1D78A0580079AA47 /* lpantsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423451D78A0580079AA47 /* lpantsIcon.png */; };
+		AF3423AC1D78A0580079AA47 /* lpijamasIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423461D78A0580079AA47 /* lpijamasIcon.png */; };
+		AF3423AD1D78A0580079AA47 /* lshirtsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423471D78A0580079AA47 /* lshirtsIcon.png */; };
+		AF3423AE1D78A0580079AA47 /* lshoesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423481D78A0580079AA47 /* lshoesIcon.png */; };
+		AF3423AF1D78A0580079AA47 /* lskirtsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423491D78A0580079AA47 /* lskirtsIcon.png */; };
+		AF3423B01D78A0580079AA47 /* lsocketsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34234A1D78A0580079AA47 /* lsocketsIcon.png */; };
+		AF3423B11D78A0580079AA47 /* lsutiasIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34234B1D78A0580079AA47 /* lsutiasIcon.png */; };
+		AF3423B21D78A0580079AA47 /* ltShirtsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34234C1D78A0580079AA47 /* ltShirtsIcon.png */; };
+		AF3423B31D78A0580079AA47 /* lunderwearsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34234D1D78A0580079AA47 /* lunderwearsIcon.png */; };
+		AF3423B41D78A0580079AA47 /* natal.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34234E1D78A0580079AA47 /* natal.png */; };
+		AF3423B51D78A0580079AA47 /* occasionFilter.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34234F1D78A0580079AA47 /* occasionFilter.png */; };
+		AF3423B61D78A0580079AA47 /* occasionFilterVector.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423501D78A0580079AA47 /* occasionFilterVector.png */; };
+		AF3423B71D78A0580079AA47 /* outono.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423511D78A0580079AA47 /* outono.png */; };
+		AF3423B81D78A0580079AA47 /* piscina.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423521D78A0580079AA47 /* piscina.png */; };
+		AF3423B91D78A0580079AA47 /* praia.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423531D78A0580079AA47 /* praia.png */; };
+		AF3423BA1D78A0580079AA47 /* primavera.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423541D78A0580079AA47 /* primavera.png */; };
+		AF3423BB1D78A0580079AA47 /* trabalho.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423551D78A0580079AA47 /* trabalho.png */; };
+		AF3423BC1D78A0580079AA47 /* trilha.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423561D78A0580079AA47 /* trilha.png */; };
+		AF3423BD1D78A0580079AA47 /* typeFilter.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423571D78A0580079AA47 /* typeFilter.png */; };
+		AF3423BE1D78A0580079AA47 /* typeFilterVector.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423581D78A0580079AA47 /* typeFilterVector.png */; };
+		AF3423BF1D78A0580079AA47 /* verao.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423591D78A0580079AA47 /* verao.png */; };
+		AF3423C01D78A0580079AA47 /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34235C1D78A0580079AA47 /* account.png */; };
+		AF3423C11D78A0580079AA47 /* age.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34235D1D78A0580079AA47 /* age.png */; };
+		AF3423C21D78A0580079AA47 /* appearance.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34235E1D78A0580079AA47 /* appearance.png */; };
+		AF3423C31D78A0580079AA47 /* femaleIcon1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34235F1D78A0580079AA47 /* femaleIcon1.png */; };
+		AF3423C41D78A0580079AA47 /* gender.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423601D78A0580079AA47 /* gender.png */; };
+		AF3423C61D78A0580079AA47 /* maleIcon1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423621D78A0580079AA47 /* maleIcon1.png */; };
+		AF3423C71D78A0580079AA47 /* menuShop.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3423631D78A0580079AA47 /* menuShop.png */; };
+		AF3423DD1D78A12A0079AA47 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3423CF1D78A12A0079AA47 /* Alert.swift */; };
+		AF3423DE1D78A12A0079AA47 /* AppCustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3423D01D78A12A0079AA47 /* AppCustomColor.swift */; };
+		AF3423DF1D78A12A0079AA47 /* Closet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3423D11D78A12A0079AA47 /* Closet.swift */; };
+		AF3423E01D78A12A0079AA47 /* Cloth.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3423D21D78A12A0079AA47 /* Cloth.swift */; };
+		AF3423E11D78A12A0079AA47 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3423D31D78A12A0079AA47 /* Device.swift */; };
+		AF3423E31D78A12A0079AA47 /* Enumerators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3423D51D78A12A0079AA47 /* Enumerators.swift */; };
+		AF3423E51D78A12A0079AA47 /* Klavika.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF3423D71D78A12A0079AA47 /* Klavika.ttf */; };
+		AF3423E61D78A12A0079AA47 /* Look.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3423D81D78A12A0079AA47 /* Look.swift */; };
+		AF3423E81D78A12A0079AA47 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3423DB1D78A12A0079AA47 /* User.swift */; };
+		AF3423E91D78A12A0079AA47 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3423DC1D78A12A0079AA47 /* Window.swift */; };
+		AF3423FA1D78A1CF0079AA47 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3423EC1D78A1CE0079AA47 /* SCLAlertView.m */; };
+		AF3423FB1D78A1CF0079AA47 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3423EE1D78A1CE0079AA47 /* SCLAlertViewResponder.m */; };
+		AF3423FC1D78A1CF0079AA47 /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3423F01D78A1CE0079AA47 /* SCLAlertViewStyleKit.m */; };
+		AF3423FD1D78A1CF0079AA47 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3423F21D78A1CF0079AA47 /* SCLButton.m */; };
+		AF3423FE1D78A1CF0079AA47 /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3423F51D78A1CF0079AA47 /* SCLTextView.m */; };
+		AF3423FF1D78A1CF0079AA47 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3423F71D78A1CF0079AA47 /* SCLTimerDisplay.m */; };
+		AF3424001D78A1CF0079AA47 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3423F91D78A1CF0079AA47 /* UIImage+ImageEffects.m */; };
+		AF3424211D78A2930079AA47 /* clothesIconForMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3424051D78A2930079AA47 /* clothesIconForMenu.png */; };
+		AF3424241D78A2930079AA47 /* height.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3424081D78A2930079AA47 /* height.png */; };
+		AF3424251D78A2930079AA47 /* jeansRemoveBack.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF3424091D78A2930079AA47 /* jeansRemoveBack.jpeg */; };
+		AF3424271D78A2930079AA47 /* menuArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34240B1D78A2930079AA47 /* menuArrow.png */; };
+		AF3424281D78A2930079AA47 /* menuBagagem.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34240C1D78A2930079AA47 /* menuBagagem.png */; };
+		AF3424291D78A2930079AA47 /* menuBasket.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34240D1D78A2930079AA47 /* menuBasket.png */; };
+		AF34242A1D78A2930079AA47 /* menuCalendar.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34240E1D78A2930079AA47 /* menuCalendar.png */; };
+		AF34242B1D78A2930079AA47 /* menuCloset.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34240F1D78A2930079AA47 /* menuCloset.png */; };
+		AF34242C1D78A2930079AA47 /* menuCloset3.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3424101D78A2930079AA47 /* menuCloset3.png */; };
+		AF34242D1D78A2930079AA47 /* menuGames.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3424111D78A2930079AA47 /* menuGames.png */; };
+		AF34242E1D78A2930079AA47 /* menuLogout.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3424121D78A2930079AA47 /* menuLogout.png */; };
+		AF34242F1D78A2930079AA47 /* menuLooks.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3424131D78A2930079AA47 /* menuLooks.png */; };
+		AF3424301D78A2930079AA47 /* menuPlusApp.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3424141D78A2930079AA47 /* menuPlusApp.png */; };
+		AF3424311D78A2930079AA47 /* menuProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3424151D78A2930079AA47 /* menuProfile.png */; };
+		AF3424331D78A2930079AA47 /* residencia.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3424171D78A2930079AA47 /* residencia.png */; };
+		AF3424341D78A2930079AA47 /* sex.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3424181D78A2930079AA47 /* sex.png */; };
+		AF3424351D78A2930079AA47 /* shape.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3424191D78A2930079AA47 /* shape.png */; };
+		AF3424361D78A2930079AA47 /* upperArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34241A1D78A2930079AA47 /* upperArrow.png */; };
+		AF3424371D78A2930079AA47 /* weight.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34241B1D78A2930079AA47 /* weight.png */; };
+		AF3424381D78A2930079AA47 /* weightLoad.png in Resources */ = {isa = PBXBuildFile; fileRef = AF34241C1D78A2930079AA47 /* weightLoad.png */; };
+		AF3424981D78A4970079AA47 /* ChangeClothPropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424741D78A4970079AA47 /* ChangeClothPropertiesViewController.swift */; };
+		AF3424991D78A4970079AA47 /* CustomCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424751D78A4970079AA47 /* CustomCropViewController.swift */; };
+		AF34249A1D78A4970079AA47 /* DetailFullScreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424761D78A4970079AA47 /* DetailFullScreenImageViewController.swift */; };
+		AF34249B1D78A4970079AA47 /* EditClosetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424771D78A4970079AA47 /* EditClosetViewController.swift */; };
+		AF34249C1D78A4970079AA47 /* EditClothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424781D78A4970079AA47 /* EditClothViewController.swift */; };
+		AF34249D1D78A4970079AA47 /* MyClosets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424791D78A4970079AA47 /* MyClosets.swift */; };
+		AF34249E1D78A4970079AA47 /* RegisterClothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34247A1D78A4970079AA47 /* RegisterClothViewController.swift */; };
+		AF34249F1D78A4970079AA47 /* MyGarbage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34247D1D78A4970079AA47 /* MyGarbage.swift */; };
+		AF3424A01D78A4970079AA47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34247F1D78A4970079AA47 /* AppDelegate.swift */; };
+		AF3424A11D78A4970079AA47 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424811D78A4970079AA47 /* LoginViewController.swift */; };
+		AF3424A21D78A4970079AA47 /* CreateLookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424831D78A4970079AA47 /* CreateLookViewController.swift */; };
+		AF3424A31D78A4970079AA47 /* MyLooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424841D78A4970079AA47 /* MyLooks.swift */; };
+		AF3424A41D78A4970079AA47 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424861D78A4970079AA47 /* AccountViewController.swift */; };
+		AF3424A51D78A4970079AA47 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424871D78A4970079AA47 /* AgeViewController.swift */; };
+		AF3424A61D78A4970079AA47 /* AppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424881D78A4970079AA47 /* AppearanceViewController.swift */; };
+		AF3424A71D78A4970079AA47 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424891D78A4970079AA47 /* GenderViewController.swift */; };
+		AF3424A81D78A4970079AA47 /* HeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34248A1D78A4970079AA47 /* HeightViewController.swift */; };
+		AF3424A91D78A4970079AA47 /* HomeplaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34248B1D78A4970079AA47 /* HomeplaceViewController.swift */; };
+		AF3424AA1D78A4970079AA47 /* LogOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34248C1D78A4970079AA47 /* LogOut.swift */; };
+		AF3424AB1D78A4970079AA47 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34248D1D78A4970079AA47 /* MenuViewController.swift */; };
+		AF3424AC1D78A4970079AA47 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34248E1D78A4970079AA47 /* ProfileViewController.swift */; };
+		AF3424AD1D78A4970079AA47 /* WebPlusAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34248F1D78A4970079AA47 /* WebPlusAppViewController.swift */; };
+		AF3424AE1D78A4970079AA47 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424901D78A4970079AA47 /* WeightViewController.swift */; };
+		AF3424AF1D78A4970079AA47 /* MyEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424921D78A4970079AA47 /* MyEvents.swift */; };
+		AF3424B01D78A4970079AA47 /* MyShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424941D78A4970079AA47 /* MyShop.swift */; };
+		AF3424D01D78A4DB0079AA47 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424B51D78A4DB0079AA47 /* AccountViewController.xib */; };
+		AF3424D11D78A4DB0079AA47 /* AgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424B61D78A4DB0079AA47 /* AgeViewController.xib */; };
+		AF3424D21D78A4DB0079AA47 /* AppearanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424B71D78A4DB0079AA47 /* AppearanceViewController.xib */; };
+		AF3424D31D78A4DB0079AA47 /* ChangeClothPropertiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424B81D78A4DB0079AA47 /* ChangeClothPropertiesViewController.xib */; };
+		AF3424D41D78A4DB0079AA47 /* CreateLookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424B91D78A4DB0079AA47 /* CreateLookViewController.xib */; };
+		AF3424D51D78A4DB0079AA47 /* CustomCropViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424BA1D78A4DB0079AA47 /* CustomCropViewController.xib */; };
+		AF3424D61D78A4DB0079AA47 /* DetailFullScreenImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424BB1D78A4DB0079AA47 /* DetailFullScreenImageViewController.xib */; };
+		AF3424D71D78A4DB0079AA47 /* EditClosetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424BC1D78A4DB0079AA47 /* EditClosetViewController.xib */; };
+		AF3424D81D78A4DB0079AA47 /* EditClothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424BD1D78A4DB0079AA47 /* EditClothViewController.xib */; };
+		AF3424D91D78A4DB0079AA47 /* GenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424BE1D78A4DB0079AA47 /* GenderViewController.xib */; };
+		AF3424DA1D78A4DB0079AA47 /* HeightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424BF1D78A4DB0079AA47 /* HeightViewController.xib */; };
+		AF3424DB1D78A4DB0079AA47 /* HomeplaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424C01D78A4DB0079AA47 /* HomeplaceViewController.xib */; };
+		AF3424DC1D78A4DB0079AA47 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424C11D78A4DB0079AA47 /* LoginViewController.xib */; };
+		AF3424DD1D78A4DB0079AA47 /* LogOut.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424C21D78A4DB0079AA47 /* LogOut.xib */; };
+		AF3424DE1D78A4DB0079AA47 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424C31D78A4DB0079AA47 /* MenuViewController.xib */; };
+		AF3424DF1D78A4DB0079AA47 /* MyClosets.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424C41D78A4DB0079AA47 /* MyClosets.xib */; };
+		AF3424E01D78A4DB0079AA47 /* MyEvents.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424C51D78A4DB0079AA47 /* MyEvents.xib */; };
+		AF3424E11D78A4DB0079AA47 /* MyGarbage.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424C61D78A4DB0079AA47 /* MyGarbage.xib */; };
+		AF3424E21D78A4DB0079AA47 /* MyLooks.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424C71D78A4DB0079AA47 /* MyLooks.xib */; };
+		AF3424E31D78A4DB0079AA47 /* MyShop.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424C81D78A4DB0079AA47 /* MyShop.xib */; };
+		AF3424E41D78A4DB0079AA47 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424C91D78A4DB0079AA47 /* ProfileViewController.xib */; };
+		AF3424E51D78A4DB0079AA47 /* RegisterClothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424CA1D78A4DB0079AA47 /* RegisterClothViewController.xib */; };
+		AF3424E61D78A4DB0079AA47 /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424CB1D78A4DB0079AA47 /* ViewController3.xib */; };
+		AF3424E71D78A4DB0079AA47 /* ViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424CC1D78A4DB0079AA47 /* ViewController4.xib */; };
+		AF3424E81D78A4DB0079AA47 /* ViewController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424CD1D78A4DB0079AA47 /* ViewController5.xib */; };
+		AF3424E91D78A4DB0079AA47 /* WebPlusAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424CE1D78A4DB0079AA47 /* WebPlusAppViewController.xib */; };
+		AF3424EA1D78A4DB0079AA47 /* WeightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424CF1D78A4DB0079AA47 /* WeightViewController.xib */; };
+		AF3424EC1D78A5C10079AA47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3424EB1D78A5C10079AA47 /* Main.storyboard */; };
+		AF3424F01D78AD070079AA47 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424ED1D78AD070079AA47 /* ViewController3.swift */; };
+		AF3424F11D78AD070079AA47 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424EE1D78AD070079AA47 /* ViewController4.swift */; };
+		AF3424F21D78AD070079AA47 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424EF1D78AD070079AA47 /* ViewController5.swift */; };
+		AF3424F51D7A02160079AA47 /* SalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424F31D7A02160079AA47 /* SalesViewController.swift */; };
+		AF3424F81D7A023F0079AA47 /* SalesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424F71D7A023F0079AA47 /* SalesViewController.xib */; };
+		AF3424FB1D7A09980079AA47 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3424F91D7A09980079AA47 /* PurchaseViewController.swift */; };
+		AF3424FE1D7A09B70079AA47 /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3424FD1D7A09B70079AA47 /* PurchaseViewController.xib */; };
+		AF354CC01C415FA200923999 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CBA1C415FA200923999 /* Bolts.framework */; };
+		AF354CC11C415FA200923999 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CBB1C415FA200923999 /* Parse.framework */; };
+		AF354CC21C415FA200923999 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CBC1C415FA200923999 /* ParseFacebookUtils.framework */; };
+		AF354CC31C415FA200923999 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CBD1C415FA200923999 /* ParseFacebookUtilsV4.framework */; };
+		AF354CC41C415FA200923999 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CBE1C415FA200923999 /* ParseTwitterUtils.framework */; };
+		AF354CC51C415FA200923999 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CBF1C415FA200923999 /* ParseUI.framework */; };
+		AF354CC71C41601500923999 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CC61C41601500923999 /* AudioToolbox.framework */; };
+		AF354CC91C41601F00923999 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CC81C41601F00923999 /* CFNetwork.framework */; };
+		AF354CCB1C41602B00923999 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CCA1C41602A00923999 /* CoreGraphics.framework */; };
+		AF354CCD1C41603300923999 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CCC1C41603300923999 /* CoreLocation.framework */; };
+		AF354CCF1C41603A00923999 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CCE1C41603A00923999 /* QuartzCore.framework */; };
+		AF354CD11C41604100923999 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CD01C41604100923999 /* Security.framework */; };
+		AF354CD31C41604900923999 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CD21C41604900923999 /* StoreKit.framework */; };
+		AF354CD51C41605200923999 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CD41C41605200923999 /* SystemConfiguration.framework */; };
+		AF354CD71C41605A00923999 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CD61C41605A00923999 /* libz.tbd */; };
+		AF354CD91C41606D00923999 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF354CD81C41606D00923999 /* libsqlite3.tbd */; };
+		AF3D28571D806C7A00105109 /* Ad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3D28561D806C7A00105109 /* Ad.swift */; };
+		AF3D285A1D807E7800105109 /* adBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3D28591D807E7800105109 /* adBackground.png */; };
+		AF3D285D1D82034C00105109 /* EditAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3D285B1D82034C00105109 /* EditAdViewController.swift */; };
+		AF3D28601D82037E00105109 /* EditAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3D285F1D82037E00105109 /* EditAdViewController.xib */; };
+		AFCE9EB91C27199000C20F5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCE9EB81C27199000C20F5C /* Assets.xcassets */; };
+		AFCE9EBC1C27199000C20F5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCE9EBA1C27199000C20F5C /* LaunchScreen.storyboard */; };
+		AFD292B91D87337700FAE284 /* clothes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFD292B71D87337700FAE284 /* clothes.xcdatamodeld */; };
+		AFD292BB1D8733AE00FAE284 /* saleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD292BA1D8733AE00FAE284 /* saleIcon.png */; };
+		AFD292C01D87347800FAE284 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD292BD1D87347800FAE284 /* FBSDKCoreKit.framework */; };
+		AFD292C11D87347800FAE284 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD292BE1D87347800FAE284 /* FBSDKLoginKit.framework */; };
+		AFD292C21D87347800FAE284 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD292BF1D87347800FAE284 /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF05F0DD1D83D23F00C4D963 /* ViewOfferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewOfferViewController.swift; sourceTree = "<group>"; };
+		AF05F0E11D83D39200C4D963 /* ViewOfferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewOfferViewController.xib; sourceTree = "<group>"; };
+		AF05F0E51D84C46E00C4D963 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		AF05F0E61D84C46E00C4D963 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		AF05F0E71D84C46E00C4D963 /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		AF05F0E81D84C46E00C4D963 /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		AF05F0EB1D85FA3000C4D963 /* closeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeButton.png; sourceTree = "<group>"; };
+		AF25F0561D8B212C004E5079 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		AF25F0581D91BFBD004E5079 /* TransitionManager2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager2.swift; sourceTree = "<group>"; };
+		AF25F0601D95AEBA004E5079 /* IAPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPViewController.swift; sourceTree = "<group>"; };
+		AF25F0641D95AEFC004E5079 /* IAPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IAPViewController.xib; sourceTree = "<group>"; };
+		AF3423021D78A0580079AA47 /* acessoriesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acessoriesIcon.png; sourceTree = "<group>"; };
+		AF3423031D78A0580079AA47 /* backgroundCloset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundCloset.png; sourceTree = "<group>"; };
+		AF3423041D78A0580079AA47 /* backgroundClosets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundClosets.png; sourceTree = "<group>"; };
+		AF3423051D78A0580079AA47 /* basketClothesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketClothesIcon.png; sourceTree = "<group>"; };
+		AF3423061D78A0580079AA47 /* bikinisIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bikinisIcon.png; sourceTree = "<group>"; };
+		AF3423071D78A0580079AA47 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		AF3423081D78A0580079AA47 /* closetBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closetBackground.png; sourceTree = "<group>"; };
+		AF3423091D78A0580079AA47 /* clothesStand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clothesStand.png; sourceTree = "<group>"; };
+		AF34230A1D78A0580079AA47 /* controlPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlPoint.png; sourceTree = "<group>"; };
+		AF34230B1D78A0580079AA47 /* customCrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customCrop.png; sourceTree = "<group>"; };
+		AF34230C1D78A0580079AA47 /* dressIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dressIcon.png; sourceTree = "<group>"; };
+		AF34230D1D78A0580079AA47 /* editText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editText.png; sourceTree = "<group>"; };
+		AF34230E1D78A0580079AA47 /* fitnessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fitnessIcon.png; sourceTree = "<group>"; };
+		AF34230F1D78A0580079AA47 /* getAlbum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = getAlbum.png; sourceTree = "<group>"; };
+		AF3423101D78A0580079AA47 /* gorgeousCloset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorgeousCloset.png; sourceTree = "<group>"; };
+		AF3423111D78A0580079AA47 /* ikeaCloset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ikeaCloset.png; sourceTree = "<group>"; };
+		AF3423121D78A0580079AA47 /* jacketsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jacketsIcon.png; sourceTree = "<group>"; };
+		AF3423131D78A0580079AA47 /* menuShow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuShow.png; sourceTree = "<group>"; };
+		AF3423141D78A0580079AA47 /* name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name.png; sourceTree = "<group>"; };
+		AF3423151D78A0580079AA47 /* pantsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantsIcon.png; sourceTree = "<group>"; };
+		AF3423161D78A0580079AA47 /* scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissors.png; sourceTree = "<group>"; };
+		AF3423171D78A0580079AA47 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		AF3423181D78A0580079AA47 /* shirtsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shirtsIcon.png; sourceTree = "<group>"; };
+		AF3423191D78A0580079AA47 /* shirtsIconAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shirtsIconAdd.png; sourceTree = "<group>"; };
+		AF34231A1D78A0580079AA47 /* shoesCloset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoesCloset.png; sourceTree = "<group>"; };
+		AF34231B1D78A0580079AA47 /* shoesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoesIcon.png; sourceTree = "<group>"; };
+		AF34231C1D78A0580079AA47 /* shoesIconAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoesIconAdd.png; sourceTree = "<group>"; };
+		AF34231D1D78A0580079AA47 /* skirtsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skirtsIcon.png; sourceTree = "<group>"; };
+		AF34231E1D78A0580079AA47 /* socketsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socketsIcon.png; sourceTree = "<group>"; };
+		AF34231F1D78A0580079AA47 /* standardCloset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = standardCloset.png; sourceTree = "<group>"; };
+		AF3423201D78A0580079AA47 /* sutiasIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sutiasIcon.png; sourceTree = "<group>"; };
+		AF3423211D78A0580079AA47 /* takeShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takeShot.png; sourceTree = "<group>"; };
+		AF3423221D78A0580079AA47 /* takeShotBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takeShotBig.png; sourceTree = "<group>"; };
+		AF3423231D78A0580079AA47 /* tShirtsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tShirtsIcon.png; sourceTree = "<group>"; };
+		AF3423241D78A0580079AA47 /* underwearsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underwearsIcon.png; sourceTree = "<group>"; };
+		AF3423251D78A0580079AA47 /* woodCloset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woodCloset.png; sourceTree = "<group>"; };
+		AF3423271D78A0580079AA47 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		AF3423281D78A0580079AA47 /* clothesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clothesIcon.png; sourceTree = "<group>"; };
+		AF3423291D78A0580079AA47 /* clothesLoginThemeSong3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clothesLoginThemeSong3.mp3; sourceTree = "<group>"; };
+		AF34232A1D78A0580079AA47 /* facebookSignInIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookSignInIcon.png; sourceTree = "<group>"; };
+		AF34232B1D78A0580079AA47 /* launcherScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launcherScreen.png; sourceTree = "<group>"; };
+		AF34232C1D78A0580079AA47 /* loginBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBackground.png; sourceTree = "<group>"; };
+		AF34232D1D78A0580079AA47 /* loginBackground02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBackground02.png; sourceTree = "<group>"; };
+		AF34232E1D78A0580079AA47 /* logoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoIcon.png; sourceTree = "<group>"; };
+		AF34232F1D78A0580079AA47 /* newLogoText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newLogoText.png; sourceTree = "<group>"; };
+		AF3423301D78A0580079AA47 /* passwordIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passwordIcon.png; sourceTree = "<group>"; };
+		AF3423311D78A0580079AA47 /* signInButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signInButton.png; sourceTree = "<group>"; };
+		AF3423331D78A0580079AA47 /* usernameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usernameIcon.png; sourceTree = "<group>"; };
+		AF3423351D78A0580079AA47 /* aniversario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aniversario.png; sourceTree = "<group>"; };
+		AF3423361D78A0580079AA47 /* campo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campo.png; sourceTree = "<group>"; };
+		AF3423371D78A0580079AA47 /* churrasco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = churrasco.png; sourceTree = "<group>"; };
+		AF3423381D78A0580079AA47 /* cotidiano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cotidiano.png; sourceTree = "<group>"; };
+		AF3423391D78A0580079AA47 /* esporte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = esporte.png; sourceTree = "<group>"; };
+		AF34233A1D78A0580079AA47 /* festa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = festa.png; sourceTree = "<group>"; };
+		AF34233B1D78A0580079AA47 /* festaFantasia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = festaFantasia.png; sourceTree = "<group>"; };
+		AF34233C1D78A0580079AA47 /* inverno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inverno.png; sourceTree = "<group>"; };
+		AF34233D1D78A0580079AA47 /* lacessoriesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lacessoriesIcon.png; sourceTree = "<group>"; };
+		AF34233E1D78A0580079AA47 /* lbikinisIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lbikinisIcon.png; sourceTree = "<group>"; };
+		AF34233F1D78A0580079AA47 /* lblousesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lblousesIcon.png; sourceTree = "<group>"; };
+		AF3423401D78A0580079AA47 /* ldressIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ldressIcon.png; sourceTree = "<group>"; };
+		AF3423411D78A0580079AA47 /* lfitnessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfitnessIcon.png; sourceTree = "<group>"; };
+		AF3423421D78A0580079AA47 /* ljacketsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ljacketsIcon.png; sourceTree = "<group>"; };
+		AF3423431D78A0580079AA47 /* lmoletonsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lmoletonsIcon.png; sourceTree = "<group>"; };
+		AF3423441D78A0580079AA47 /* looksBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = looksBackground.png; sourceTree = "<group>"; };
+		AF3423451D78A0580079AA47 /* lpantsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lpantsIcon.png; sourceTree = "<group>"; };
+		AF3423461D78A0580079AA47 /* lpijamasIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lpijamasIcon.png; sourceTree = "<group>"; };
+		AF3423471D78A0580079AA47 /* lshirtsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lshirtsIcon.png; sourceTree = "<group>"; };
+		AF3423481D78A0580079AA47 /* lshoesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lshoesIcon.png; sourceTree = "<group>"; };
+		AF3423491D78A0580079AA47 /* lskirtsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lskirtsIcon.png; sourceTree = "<group>"; };
+		AF34234A1D78A0580079AA47 /* lsocketsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lsocketsIcon.png; sourceTree = "<group>"; };
+		AF34234B1D78A0580079AA47 /* lsutiasIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lsutiasIcon.png; sourceTree = "<group>"; };
+		AF34234C1D78A0580079AA47 /* ltShirtsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ltShirtsIcon.png; sourceTree = "<group>"; };
+		AF34234D1D78A0580079AA47 /* lunderwearsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunderwearsIcon.png; sourceTree = "<group>"; };
+		AF34234E1D78A0580079AA47 /* natal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natal.png; sourceTree = "<group>"; };
+		AF34234F1D78A0580079AA47 /* occasionFilter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = occasionFilter.png; sourceTree = "<group>"; };
+		AF3423501D78A0580079AA47 /* occasionFilterVector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = occasionFilterVector.png; sourceTree = "<group>"; };
+		AF3423511D78A0580079AA47 /* outono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outono.png; sourceTree = "<group>"; };
+		AF3423521D78A0580079AA47 /* piscina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piscina.png; sourceTree = "<group>"; };
+		AF3423531D78A0580079AA47 /* praia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = praia.png; sourceTree = "<group>"; };
+		AF3423541D78A0580079AA47 /* primavera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = primavera.png; sourceTree = "<group>"; };
+		AF3423551D78A0580079AA47 /* trabalho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trabalho.png; sourceTree = "<group>"; };
+		AF3423561D78A0580079AA47 /* trilha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trilha.png; sourceTree = "<group>"; };
+		AF3423571D78A0580079AA47 /* typeFilter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = typeFilter.png; sourceTree = "<group>"; };
+		AF3423581D78A0580079AA47 /* typeFilterVector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = typeFilterVector.png; sourceTree = "<group>"; };
+		AF3423591D78A0580079AA47 /* verao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verao.png; sourceTree = "<group>"; };
+		AF34235C1D78A0580079AA47 /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		AF34235D1D78A0580079AA47 /* age.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = age.png; sourceTree = "<group>"; };
+		AF34235E1D78A0580079AA47 /* appearance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appearance.png; sourceTree = "<group>"; };
+		AF34235F1D78A0580079AA47 /* femaleIcon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = femaleIcon1.png; sourceTree = "<group>"; };
+		AF3423601D78A0580079AA47 /* gender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gender.png; sourceTree = "<group>"; };
+		AF3423611D78A0580079AA47 /* height.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = height.png; sourceTree = "<group>"; };
+		AF3423621D78A0580079AA47 /* maleIcon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maleIcon1.png; sourceTree = "<group>"; };
+		AF3423631D78A0580079AA47 /* menuShop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuShop.png; sourceTree = "<group>"; };
+		AF3423641D78A0580079AA47 /* residencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = residencia.png; sourceTree = "<group>"; };
+		AF3423CF1D78A12A0079AA47 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		AF3423D01D78A12A0079AA47 /* AppCustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCustomColor.swift; sourceTree = "<group>"; };
+		AF3423D11D78A12A0079AA47 /* Closet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closet.swift; sourceTree = "<group>"; };
+		AF3423D21D78A12A0079AA47 /* Cloth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cloth.swift; sourceTree = "<group>"; };
+		AF3423D31D78A12A0079AA47 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		AF3423D51D78A12A0079AA47 /* Enumerators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumerators.swift; sourceTree = "<group>"; };
+		AF3423D71D78A12A0079AA47 /* Klavika.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Klavika.ttf; sourceTree = "<group>"; };
+		AF3423D81D78A12A0079AA47 /* Look.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Look.swift; sourceTree = "<group>"; };
+		AF3423DB1D78A12A0079AA47 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AF3423DC1D78A12A0079AA47 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		AF3423EA1D78A1670079AA47 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		AF3423EB1D78A1CE0079AA47 /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertView.h; sourceTree = "<group>"; };
+		AF3423EC1D78A1CE0079AA47 /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertView.m; sourceTree = "<group>"; };
+		AF3423ED1D78A1CE0079AA47 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		AF3423EE1D78A1CE0079AA47 /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		AF3423EF1D78A1CE0079AA47 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		AF3423F01D78A1CE0079AA47 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		AF3423F11D78A1CE0079AA47 /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLButton.h; sourceTree = "<group>"; };
+		AF3423F21D78A1CF0079AA47 /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLButton.m; sourceTree = "<group>"; };
+		AF3423F31D78A1CF0079AA47 /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLMacros.h; sourceTree = "<group>"; };
+		AF3423F41D78A1CF0079AA47 /* SCLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTextView.h; sourceTree = "<group>"; };
+		AF3423F51D78A1CF0079AA47 /* SCLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTextView.m; sourceTree = "<group>"; };
+		AF3423F61D78A1CF0079AA47 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTimerDisplay.h; sourceTree = "<group>"; };
+		AF3423F71D78A1CF0079AA47 /* SCLTimerDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTimerDisplay.m; sourceTree = "<group>"; };
+		AF3423F81D78A1CF0079AA47 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		AF3423F91D78A1CF0079AA47 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		AF3424051D78A2930079AA47 /* clothesIconForMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clothesIconForMenu.png; sourceTree = "<group>"; };
+		AF3424081D78A2930079AA47 /* height.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = height.png; sourceTree = "<group>"; };
+		AF3424091D78A2930079AA47 /* jeansRemoveBack.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeansRemoveBack.jpeg; sourceTree = "<group>"; };
+		AF34240A1D78A2930079AA47 /* maleIcon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maleIcon1.png; sourceTree = "<group>"; };
+		AF34240B1D78A2930079AA47 /* menuArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuArrow.png; sourceTree = "<group>"; };
+		AF34240C1D78A2930079AA47 /* menuBagagem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuBagagem.png; sourceTree = "<group>"; };
+		AF34240D1D78A2930079AA47 /* menuBasket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuBasket.png; sourceTree = "<group>"; };
+		AF34240E1D78A2930079AA47 /* menuCalendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuCalendar.png; sourceTree = "<group>"; };
+		AF34240F1D78A2930079AA47 /* menuCloset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuCloset.png; sourceTree = "<group>"; };
+		AF3424101D78A2930079AA47 /* menuCloset3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuCloset3.png; sourceTree = "<group>"; };
+		AF3424111D78A2930079AA47 /* menuGames.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuGames.png; sourceTree = "<group>"; };
+		AF3424121D78A2930079AA47 /* menuLogout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuLogout.png; sourceTree = "<group>"; };
+		AF3424131D78A2930079AA47 /* menuLooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuLooks.png; sourceTree = "<group>"; };
+		AF3424141D78A2930079AA47 /* menuPlusApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuPlusApp.png; sourceTree = "<group>"; };
+		AF3424151D78A2930079AA47 /* menuProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuProfile.png; sourceTree = "<group>"; };
+		AF3424171D78A2930079AA47 /* residencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = residencia.png; sourceTree = "<group>"; };
+		AF3424181D78A2930079AA47 /* sex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sex.png; sourceTree = "<group>"; };
+		AF3424191D78A2930079AA47 /* shape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shape.png; sourceTree = "<group>"; };
+		AF34241A1D78A2930079AA47 /* upperArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upperArrow.png; sourceTree = "<group>"; };
+		AF34241B1D78A2930079AA47 /* weight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weight.png; sourceTree = "<group>"; };
+		AF34241C1D78A2930079AA47 /* weightLoad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weightLoad.png; sourceTree = "<group>"; };
+		AF3424741D78A4970079AA47 /* ChangeClothPropertiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeClothPropertiesViewController.swift; sourceTree = "<group>"; };
+		AF3424751D78A4970079AA47 /* CustomCropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCropViewController.swift; sourceTree = "<group>"; };
+		AF3424761D78A4970079AA47 /* DetailFullScreenImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFullScreenImageViewController.swift; sourceTree = "<group>"; };
+		AF3424771D78A4970079AA47 /* EditClosetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditClosetViewController.swift; sourceTree = "<group>"; };
+		AF3424781D78A4970079AA47 /* EditClothViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditClothViewController.swift; sourceTree = "<group>"; };
+		AF3424791D78A4970079AA47 /* MyClosets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClosets.swift; sourceTree = "<group>"; };
+		AF34247A1D78A4970079AA47 /* RegisterClothViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterClothViewController.swift; sourceTree = "<group>"; };
+		AF34247D1D78A4970079AA47 /* MyGarbage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyGarbage.swift; sourceTree = "<group>"; };
+		AF34247F1D78A4970079AA47 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF3424811D78A4970079AA47 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF3424831D78A4970079AA47 /* CreateLookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateLookViewController.swift; sourceTree = "<group>"; };
+		AF3424841D78A4970079AA47 /* MyLooks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLooks.swift; sourceTree = "<group>"; };
+		AF3424861D78A4970079AA47 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		AF3424871D78A4970079AA47 /* AgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		AF3424881D78A4970079AA47 /* AppearanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceViewController.swift; sourceTree = "<group>"; };
+		AF3424891D78A4970079AA47 /* GenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		AF34248A1D78A4970079AA47 /* HeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeightViewController.swift; sourceTree = "<group>"; };
+		AF34248B1D78A4970079AA47 /* HomeplaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeplaceViewController.swift; sourceTree = "<group>"; };
+		AF34248C1D78A4970079AA47 /* LogOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOut.swift; sourceTree = "<group>"; };
+		AF34248D1D78A4970079AA47 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		AF34248E1D78A4970079AA47 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AF34248F1D78A4970079AA47 /* WebPlusAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPlusAppViewController.swift; sourceTree = "<group>"; };
+		AF3424901D78A4970079AA47 /* WeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		AF3424921D78A4970079AA47 /* MyEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEvents.swift; sourceTree = "<group>"; };
+		AF3424941D78A4970079AA47 /* MyShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyShop.swift; sourceTree = "<group>"; };
+		AF3424B51D78A4DB0079AA47 /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		AF3424B61D78A4DB0079AA47 /* AgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgeViewController.xib; sourceTree = "<group>"; };
+		AF3424B71D78A4DB0079AA47 /* AppearanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppearanceViewController.xib; sourceTree = "<group>"; };
+		AF3424B81D78A4DB0079AA47 /* ChangeClothPropertiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeClothPropertiesViewController.xib; sourceTree = "<group>"; };
+		AF3424B91D78A4DB0079AA47 /* CreateLookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateLookViewController.xib; sourceTree = "<group>"; };
+		AF3424BA1D78A4DB0079AA47 /* CustomCropViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCropViewController.xib; sourceTree = "<group>"; };
+		AF3424BB1D78A4DB0079AA47 /* DetailFullScreenImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailFullScreenImageViewController.xib; sourceTree = "<group>"; };
+		AF3424BC1D78A4DB0079AA47 /* EditClosetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditClosetViewController.xib; sourceTree = "<group>"; };
+		AF3424BD1D78A4DB0079AA47 /* EditClothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditClothViewController.xib; sourceTree = "<group>"; };
+		AF3424BE1D78A4DB0079AA47 /* GenderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenderViewController.xib; sourceTree = "<group>"; };
+		AF3424BF1D78A4DB0079AA47 /* HeightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeightViewController.xib; sourceTree = "<group>"; };
+		AF3424C01D78A4DB0079AA47 /* HomeplaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeplaceViewController.xib; sourceTree = "<group>"; };
+		AF3424C11D78A4DB0079AA47 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		AF3424C21D78A4DB0079AA47 /* LogOut.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogOut.xib; sourceTree = "<group>"; };
+		AF3424C31D78A4DB0079AA47 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		AF3424C41D78A4DB0079AA47 /* MyClosets.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyClosets.xib; sourceTree = "<group>"; };
+		AF3424C51D78A4DB0079AA47 /* MyEvents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyEvents.xib; sourceTree = "<group>"; };
+		AF3424C61D78A4DB0079AA47 /* MyGarbage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyGarbage.xib; sourceTree = "<group>"; };
+		AF3424C71D78A4DB0079AA47 /* MyLooks.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLooks.xib; sourceTree = "<group>"; };
+		AF3424C81D78A4DB0079AA47 /* MyShop.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyShop.xib; sourceTree = "<group>"; };
+		AF3424C91D78A4DB0079AA47 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		AF3424CA1D78A4DB0079AA47 /* RegisterClothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterClothViewController.xib; sourceTree = "<group>"; };
+		AF3424CB1D78A4DB0079AA47 /* ViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController3.xib; sourceTree = "<group>"; };
+		AF3424CC1D78A4DB0079AA47 /* ViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController4.xib; sourceTree = "<group>"; };
+		AF3424CD1D78A4DB0079AA47 /* ViewController5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController5.xib; sourceTree = "<group>"; };
+		AF3424CE1D78A4DB0079AA47 /* WebPlusAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebPlusAppViewController.xib; sourceTree = "<group>"; };
+		AF3424CF1D78A4DB0079AA47 /* WeightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeightViewController.xib; sourceTree = "<group>"; };
+		AF3424EB1D78A5C10079AA47 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AF3424ED1D78AD070079AA47 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		AF3424EE1D78AD070079AA47 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		AF3424EF1D78AD070079AA47 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		AF3424F31D7A02160079AA47 /* SalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesViewController.swift; sourceTree = "<group>"; };
+		AF3424F71D7A023F0079AA47 /* SalesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SalesViewController.xib; sourceTree = "<group>"; };
+		AF3424F91D7A09980079AA47 /* PurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		AF3424FD1D7A09B70079AA47 /* PurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseViewController.xib; sourceTree = "<group>"; };
+		AF354CBA1C415FA200923999 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AF354CBB1C415FA200923999 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		AF354CBC1C415FA200923999 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		AF354CBD1C415FA200923999 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		AF354CBE1C415FA200923999 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		AF354CBF1C415FA200923999 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		AF354CC61C41601500923999 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AF354CC81C41601F00923999 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AF354CCA1C41602A00923999 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF354CCC1C41603300923999 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AF354CCE1C41603A00923999 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AF354CD01C41604100923999 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AF354CD21C41604900923999 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AF354CD41C41605200923999 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AF354CD61C41605A00923999 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AF354CD81C41606D00923999 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AF3D28561D806C7A00105109 /* Ad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ad.swift; sourceTree = "<group>"; };
+		AF3D28591D807E7800105109 /* adBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adBackground.png; sourceTree = "<group>"; };
+		AF3D285B1D82034C00105109 /* EditAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAdViewController.swift; sourceTree = "<group>"; };
+		AF3D285F1D82037E00105109 /* EditAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditAdViewController.xib; sourceTree = "<group>"; };
+		AFCE9EAB1C27199000C20F5C /* clothes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clothes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCE9EB81C27199000C20F5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = clothes/Assets.xcassets; sourceTree = "<group>"; };
+		AFCE9EBB1C27199000C20F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFCE9EBD1C27199000C20F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = clothes/Info.plist; sourceTree = "<group>"; };
+		AFD292B81D87337700FAE284 /* AnimatedTabControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimatedTabControl.xcdatamodel; sourceTree = "<group>"; };
+		AFD292BA1D8733AE00FAE284 /* saleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saleIcon.png; sourceTree = "<group>"; };
+		AFD292BD1D87347800FAE284 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AFD292BE1D87347800FAE284 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AFD292BF1D87347800FAE284 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCE9EA81C27199000C20F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF354CD91C41606D00923999 /* libsqlite3.tbd in Frameworks */,
+				AF354CD71C41605A00923999 /* libz.tbd in Frameworks */,
+				AF354CD51C41605200923999 /* SystemConfiguration.framework in Frameworks */,
+				AF354CD31C41604900923999 /* StoreKit.framework in Frameworks */,
+				AFD292C01D87347800FAE284 /* FBSDKCoreKit.framework in Frameworks */,
+				AFD292C21D87347800FAE284 /* FBSDKShareKit.framework in Frameworks */,
+				AF354CD11C41604100923999 /* Security.framework in Frameworks */,
+				AF354CCF1C41603A00923999 /* QuartzCore.framework in Frameworks */,
+				AF354CCD1C41603300923999 /* CoreLocation.framework in Frameworks */,
+				AF354CCB1C41602B00923999 /* CoreGraphics.framework in Frameworks */,
+				AFD292C11D87347800FAE284 /* FBSDKLoginKit.framework in Frameworks */,
+				AF354CC91C41601F00923999 /* CFNetwork.framework in Frameworks */,
+				AF354CC71C41601500923999 /* AudioToolbox.framework in Frameworks */,
+				AF354CC51C415FA200923999 /* ParseUI.framework in Frameworks */,
+				AF354CC11C415FA200923999 /* Parse.framework in Frameworks */,
+				AF354CC01C415FA200923999 /* Bolts.framework in Frameworks */,
+				AF354CC31C415FA200923999 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				AF354CC21C415FA200923999 /* ParseFacebookUtils.framework in Frameworks */,
+				AF354CC41C415FA200923999 /* ParseTwitterUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF05F0E41D84C46E00C4D963 /* BarButtonBadge */ = {
+			isa = PBXGroup;
+			children = (
+				AF05F0E51D84C46E00C4D963 /* UIBarButtonItem+Badge.h */,
+				AF05F0E61D84C46E00C4D963 /* UIBarButtonItem+Badge.m */,
+				AF05F0E71D84C46E00C4D963 /* UIButton+Badge.h */,
+				AF05F0E81D84C46E00C4D963 /* UIButton+Badge.m */,
+			);
+			path = BarButtonBadge;
+			sourceTree = "<group>";
+		};
+		AF3423001D78A0580079AA47 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AF3423261D78A0580079AA47 /* Log In */,
+				AF34235B1D78A0580079AA47 /* Menu */,
+				AF3423011D78A0580079AA47 /* Closets */,
+				AF3423341D78A0580079AA47 /* Looks */,
+				AF3D28581D807E7800105109 /* Store */,
+			);
+			name = Images;
+			path = clothes/Images;
+			sourceTree = "<group>";
+		};
+		AF3423011D78A0580079AA47 /* Closets */ = {
+			isa = PBXGroup;
+			children = (
+				AF3423021D78A0580079AA47 /* acessoriesIcon.png */,
+				AF3423031D78A0580079AA47 /* backgroundCloset.png */,
+				AF3423041D78A0580079AA47 /* backgroundClosets.png */,
+				AF3423051D78A0580079AA47 /* basketClothesIcon.png */,
+				AF3423061D78A0580079AA47 /* bikinisIcon.png */,
+				AF3423071D78A0580079AA47 /* camera.png */,
+				AF3423081D78A0580079AA47 /* closetBackground.png */,
+				AF3423091D78A0580079AA47 /* clothesStand.png */,
+				AF34230A1D78A0580079AA47 /* controlPoint.png */,
+				AF34230B1D78A0580079AA47 /* customCrop.png */,
+				AF34230C1D78A0580079AA47 /* dressIcon.png */,
+				AF34230D1D78A0580079AA47 /* editText.png */,
+				AF34230E1D78A0580079AA47 /* fitnessIcon.png */,
+				AF34230F1D78A0580079AA47 /* getAlbum.png */,
+				AF3423101D78A0580079AA47 /* gorgeousCloset.png */,
+				AF3423111D78A0580079AA47 /* ikeaCloset.png */,
+				AF3423121D78A0580079AA47 /* jacketsIcon.png */,
+				AF3423131D78A0580079AA47 /* menuShow.png */,
+				AF3423141D78A0580079AA47 /* name.png */,
+				AF3423151D78A0580079AA47 /* pantsIcon.png */,
+				AF3423161D78A0580079AA47 /* scissors.png */,
+				AF3423171D78A0580079AA47 /* search.png */,
+				AF3423181D78A0580079AA47 /* shirtsIcon.png */,
+				AF3423191D78A0580079AA47 /* shirtsIconAdd.png */,
+				AF34231A1D78A0580079AA47 /* shoesCloset.png */,
+				AF34231B1D78A0580079AA47 /* shoesIcon.png */,
+				AF34231C1D78A0580079AA47 /* shoesIconAdd.png */,
+				AF34231D1D78A0580079AA47 /* skirtsIcon.png */,
+				AF34231E1D78A0580079AA47 /* socketsIcon.png */,
+				AF34231F1D78A0580079AA47 /* standardCloset.png */,
+				AF3423201D78A0580079AA47 /* sutiasIcon.png */,
+				AF3423211D78A0580079AA47 /* takeShot.png */,
+				AF3423221D78A0580079AA47 /* takeShotBig.png */,
+				AF3423231D78A0580079AA47 /* tShirtsIcon.png */,
+				AF3423241D78A0580079AA47 /* underwearsIcon.png */,
+				AF3423251D78A0580079AA47 /* woodCloset.png */,
+			);
+			path = Closets;
+			sourceTree = "<group>";
+		};
+		AF3423261D78A0580079AA47 /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				AF3423271D78A0580079AA47 /* 12.png */,
+				AF3423281D78A0580079AA47 /* clothesIcon.png */,
+				AF3423291D78A0580079AA47 /* clothesLoginThemeSong3.mp3 */,
+				AF34232A1D78A0580079AA47 /* facebookSignInIcon.png */,
+				AF34232B1D78A0580079AA47 /* launcherScreen.png */,
+				AF34232C1D78A0580079AA47 /* loginBackground.png */,
+				AF34232D1D78A0580079AA47 /* loginBackground02.png */,
+				AF34232E1D78A0580079AA47 /* logoIcon.png */,
+				AF34232F1D78A0580079AA47 /* newLogoText.png */,
+				AF3423301D78A0580079AA47 /* passwordIcon.png */,
+				AF3423311D78A0580079AA47 /* signInButton.png */,
+				AF3423331D78A0580079AA47 /* usernameIcon.png */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		AF3423341D78A0580079AA47 /* Looks */ = {
+			isa = PBXGroup;
+			children = (
+				AF3423351D78A0580079AA47 /* aniversario.png */,
+				AF3423361D78A0580079AA47 /* campo.png */,
+				AF3423371D78A0580079AA47 /* churrasco.png */,
+				AF3423381D78A0580079AA47 /* cotidiano.png */,
+				AF3423391D78A0580079AA47 /* esporte.png */,
+				AF34233A1D78A0580079AA47 /* festa.png */,
+				AF34233B1D78A0580079AA47 /* festaFantasia.png */,
+				AF34233C1D78A0580079AA47 /* inverno.png */,
+				AF34233D1D78A0580079AA47 /* lacessoriesIcon.png */,
+				AF34233E1D78A0580079AA47 /* lbikinisIcon.png */,
+				AF34233F1D78A0580079AA47 /* lblousesIcon.png */,
+				AF3423401D78A0580079AA47 /* ldressIcon.png */,
+				AF3423411D78A0580079AA47 /* lfitnessIcon.png */,
+				AF3423421D78A0580079AA47 /* ljacketsIcon.png */,
+				AF3423431D78A0580079AA47 /* lmoletonsIcon.png */,
+				AF3423441D78A0580079AA47 /* looksBackground.png */,
+				AF3423451D78A0580079AA47 /* lpantsIcon.png */,
+				AF3423461D78A0580079AA47 /* lpijamasIcon.png */,
+				AF3423471D78A0580079AA47 /* lshirtsIcon.png */,
+				AF3423481D78A0580079AA47 /* lshoesIcon.png */,
+				AF3423491D78A0580079AA47 /* lskirtsIcon.png */,
+				AF34234A1D78A0580079AA47 /* lsocketsIcon.png */,
+				AF34234B1D78A0580079AA47 /* lsutiasIcon.png */,
+				AF34234C1D78A0580079AA47 /* ltShirtsIcon.png */,
+				AF34234D1D78A0580079AA47 /* lunderwearsIcon.png */,
+				AF34234E1D78A0580079AA47 /* natal.png */,
+				AF34234F1D78A0580079AA47 /* occasionFilter.png */,
+				AF3423501D78A0580079AA47 /* occasionFilterVector.png */,
+				AF3423511D78A0580079AA47 /* outono.png */,
+				AF3423521D78A0580079AA47 /* piscina.png */,
+				AF3423531D78A0580079AA47 /* praia.png */,
+				AF3423541D78A0580079AA47 /* primavera.png */,
+				AF3423551D78A0580079AA47 /* trabalho.png */,
+				AF3423561D78A0580079AA47 /* trilha.png */,
+				AF3423571D78A0580079AA47 /* typeFilter.png */,
+				AF3423581D78A0580079AA47 /* typeFilterVector.png */,
+				AF3423591D78A0580079AA47 /* verao.png */,
+			);
+			path = Looks;
+			sourceTree = "<group>";
+		};
+		AF34235B1D78A0580079AA47 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				AF34235C1D78A0580079AA47 /* account.png */,
+				AF34235D1D78A0580079AA47 /* age.png */,
+				AF34235E1D78A0580079AA47 /* appearance.png */,
+				AF34235F1D78A0580079AA47 /* femaleIcon1.png */,
+				AF3423601D78A0580079AA47 /* gender.png */,
+				AF3424051D78A2930079AA47 /* clothesIconForMenu.png */,
+				AF3424081D78A2930079AA47 /* height.png */,
+				AF3424091D78A2930079AA47 /* jeansRemoveBack.jpeg */,
+				AF34240A1D78A2930079AA47 /* maleIcon1.png */,
+				AF34240B1D78A2930079AA47 /* menuArrow.png */,
+				AF34240C1D78A2930079AA47 /* menuBagagem.png */,
+				AF34240D1D78A2930079AA47 /* menuBasket.png */,
+				AF34240E1D78A2930079AA47 /* menuCalendar.png */,
+				AFD292BA1D8733AE00FAE284 /* saleIcon.png */,
+				AF34240F1D78A2930079AA47 /* menuCloset.png */,
+				AF3424101D78A2930079AA47 /* menuCloset3.png */,
+				AF3424111D78A2930079AA47 /* menuGames.png */,
+				AF3424121D78A2930079AA47 /* menuLogout.png */,
+				AF3424131D78A2930079AA47 /* menuLooks.png */,
+				AF3424141D78A2930079AA47 /* menuPlusApp.png */,
+				AF3424151D78A2930079AA47 /* menuProfile.png */,
+				AF3424171D78A2930079AA47 /* residencia.png */,
+				AF3424181D78A2930079AA47 /* sex.png */,
+				AF3424191D78A2930079AA47 /* shape.png */,
+				AF34241A1D78A2930079AA47 /* upperArrow.png */,
+				AF34241B1D78A2930079AA47 /* weight.png */,
+				AF34241C1D78A2930079AA47 /* weightLoad.png */,
+				AF3423611D78A0580079AA47 /* height.png */,
+				AF3423621D78A0580079AA47 /* maleIcon1.png */,
+				AF3423631D78A0580079AA47 /* menuShop.png */,
+				AF3423641D78A0580079AA47 /* residencia.png */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		AF3423CE1D78A12A0079AA47 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				AF3423D71D78A12A0079AA47 /* Klavika.ttf */,
+				AF3423DB1D78A12A0079AA47 /* User.swift */,
+				AF3423DC1D78A12A0079AA47 /* Window.swift */,
+				AF3423D21D78A12A0079AA47 /* Cloth.swift */,
+				AF3423D11D78A12A0079AA47 /* Closet.swift */,
+				AF3423D81D78A12A0079AA47 /* Look.swift */,
+				AF3D28561D806C7A00105109 /* Ad.swift */,
+				AF3423CF1D78A12A0079AA47 /* Alert.swift */,
+				AF3423D51D78A12A0079AA47 /* Enumerators.swift */,
+				AF3423D01D78A12A0079AA47 /* AppCustomColor.swift */,
+				AF3423D31D78A12A0079AA47 /* Device.swift */,
+				AF25F0561D8B212C004E5079 /* TransitionManager.swift */,
+				AF25F0581D91BFBD004E5079 /* TransitionManager2.swift */,
+				AF3423EA1D78A1670079AA47 /* Bridging-Header.h */,
+				AF05F0E41D84C46E00C4D963 /* BarButtonBadge */,
+				AF3423DA1D78A12A0079AA47 /* SCLAlert */,
+			);
+			name = Libraries;
+			path = clothes/Libraries;
+			sourceTree = "<group>";
+		};
+		AF3423DA1D78A12A0079AA47 /* SCLAlert */ = {
+			isa = PBXGroup;
+			children = (
+				AF3423EB1D78A1CE0079AA47 /* SCLAlertView.h */,
+				AF3423EC1D78A1CE0079AA47 /* SCLAlertView.m */,
+				AF3423ED1D78A1CE0079AA47 /* SCLAlertViewResponder.h */,
+				AF3423EE1D78A1CE0079AA47 /* SCLAlertViewResponder.m */,
+				AF3423EF1D78A1CE0079AA47 /* SCLAlertViewStyleKit.h */,
+				AF3423F01D78A1CE0079AA47 /* SCLAlertViewStyleKit.m */,
+				AF3423F11D78A1CE0079AA47 /* SCLButton.h */,
+				AF3423F21D78A1CF0079AA47 /* SCLButton.m */,
+				AF3423F31D78A1CF0079AA47 /* SCLMacros.h */,
+				AF3423F41D78A1CF0079AA47 /* SCLTextView.h */,
+				AF3423F51D78A1CF0079AA47 /* SCLTextView.m */,
+				AF3423F61D78A1CF0079AA47 /* SCLTimerDisplay.h */,
+				AF3423F71D78A1CF0079AA47 /* SCLTimerDisplay.m */,
+				AF3423F81D78A1CF0079AA47 /* UIImage+ImageEffects.h */,
+				AF3423F91D78A1CF0079AA47 /* UIImage+ImageEffects.m */,
+			);
+			path = SCLAlert;
+			sourceTree = "<group>";
+		};
+		AF3424721D78A4970079AA47 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF34247E1D78A4970079AA47 /* Initializer */,
+				AF3424801D78A4970079AA47 /* Log In */,
+				AF3424851D78A4970079AA47 /* Menu */,
+				AF3424731D78A4970079AA47 /* Closets */,
+				AF3424821D78A4970079AA47 /* Looks */,
+				AF34247C1D78A4970079AA47 /* Garbage */,
+				AF3424931D78A4970079AA47 /* Shop */,
+				AF34247B1D78A4970079AA47 /* Events */,
+				AF3424911D78A4970079AA47 /* Others */,
+			);
+			name = "View Controllers";
+			path = "clothes/View Controllers";
+			sourceTree = "<group>";
+		};
+		AF3424731D78A4970079AA47 /* Closets */ = {
+			isa = PBXGroup;
+			children = (
+				AF3424791D78A4970079AA47 /* MyClosets.swift */,
+				AF34247A1D78A4970079AA47 /* RegisterClothViewController.swift */,
+				AF3424771D78A4970079AA47 /* EditClosetViewController.swift */,
+				AF3424761D78A4970079AA47 /* DetailFullScreenImageViewController.swift */,
+				AF3424751D78A4970079AA47 /* CustomCropViewController.swift */,
+				AF3424781D78A4970079AA47 /* EditClothViewController.swift */,
+				AF3424741D78A4970079AA47 /* ChangeClothPropertiesViewController.swift */,
+			);
+			path = Closets;
+			sourceTree = "<group>";
+		};
+		AF34247B1D78A4970079AA47 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		AF34247C1D78A4970079AA47 /* Garbage */ = {
+			isa = PBXGroup;
+			children = (
+				AF34247D1D78A4970079AA47 /* MyGarbage.swift */,
+			);
+			path = Garbage;
+			sourceTree = "<group>";
+		};
+		AF34247E1D78A4970079AA47 /* Initializer */ = {
+			isa = PBXGroup;
+			children = (
+				AF34247F1D78A4970079AA47 /* AppDelegate.swift */,
+			);
+			path = Initializer;
+			sourceTree = "<group>";
+		};
+		AF3424801D78A4970079AA47 /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				AF3424811D78A4970079AA47 /* LoginViewController.swift */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		AF3424821D78A4970079AA47 /* Looks */ = {
+			isa = PBXGroup;
+			children = (
+				AF3424841D78A4970079AA47 /* MyLooks.swift */,
+				AF3424831D78A4970079AA47 /* CreateLookViewController.swift */,
+			);
+			path = Looks;
+			sourceTree = "<group>";
+		};
+		AF3424851D78A4970079AA47 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				AF34248D1D78A4970079AA47 /* MenuViewController.swift */,
+				AF34248E1D78A4970079AA47 /* ProfileViewController.swift */,
+				AF3424861D78A4970079AA47 /* AccountViewController.swift */,
+				AF3424871D78A4970079AA47 /* AgeViewController.swift */,
+				AF3424881D78A4970079AA47 /* AppearanceViewController.swift */,
+				AF3424891D78A4970079AA47 /* GenderViewController.swift */,
+				AF34248A1D78A4970079AA47 /* HeightViewController.swift */,
+				AF34248B1D78A4970079AA47 /* HomeplaceViewController.swift */,
+				AF34248F1D78A4970079AA47 /* WebPlusAppViewController.swift */,
+				AF3424901D78A4970079AA47 /* WeightViewController.swift */,
+				AF34248C1D78A4970079AA47 /* LogOut.swift */,
+				AF25F0601D95AEBA004E5079 /* IAPViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		AF3424911D78A4970079AA47 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				AF3424ED1D78AD070079AA47 /* ViewController3.swift */,
+				AF3424EE1D78AD070079AA47 /* ViewController4.swift */,
+				AF3424EF1D78AD070079AA47 /* ViewController5.swift */,
+				AF3424921D78A4970079AA47 /* MyEvents.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		AF3424931D78A4970079AA47 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				AF3424941D78A4970079AA47 /* MyShop.swift */,
+				AF3424F31D7A02160079AA47 /* SalesViewController.swift */,
+				AF3D285B1D82034C00105109 /* EditAdViewController.swift */,
+				AF3424F91D7A09980079AA47 /* PurchaseViewController.swift */,
+				AF05F0DD1D83D23F00C4D963 /* ViewOfferViewController.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		AF3424B41D78A4DB0079AA47 /* View Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AF3424EB1D78A5C10079AA47 /* Main.storyboard */,
+				AF25F0641D95AEFC004E5079 /* IAPViewController.xib */,
+				AF3424B51D78A4DB0079AA47 /* AccountViewController.xib */,
+				AF3424B61D78A4DB0079AA47 /* AgeViewController.xib */,
+				AF3424B71D78A4DB0079AA47 /* AppearanceViewController.xib */,
+				AF3424B81D78A4DB0079AA47 /* ChangeClothPropertiesViewController.xib */,
+				AF3424B91D78A4DB0079AA47 /* CreateLookViewController.xib */,
+				AF3424BA1D78A4DB0079AA47 /* CustomCropViewController.xib */,
+				AF3424BB1D78A4DB0079AA47 /* DetailFullScreenImageViewController.xib */,
+				AF3D285F1D82037E00105109 /* EditAdViewController.xib */,
+				AF3424BC1D78A4DB0079AA47 /* EditClosetViewController.xib */,
+				AF3424BD1D78A4DB0079AA47 /* EditClothViewController.xib */,
+				AF3424BE1D78A4DB0079AA47 /* GenderViewController.xib */,
+				AF3424BF1D78A4DB0079AA47 /* HeightViewController.xib */,
+				AF3424C01D78A4DB0079AA47 /* HomeplaceViewController.xib */,
+				AF3424C11D78A4DB0079AA47 /* LoginViewController.xib */,
+				AF3424C21D78A4DB0079AA47 /* LogOut.xib */,
+				AF3424C31D78A4DB0079AA47 /* MenuViewController.xib */,
+				AF3424C41D78A4DB0079AA47 /* MyClosets.xib */,
+				AF3424C51D78A4DB0079AA47 /* MyEvents.xib */,
+				AF3424C61D78A4DB0079AA47 /* MyGarbage.xib */,
+				AF3424C71D78A4DB0079AA47 /* MyLooks.xib */,
+				AF3424C81D78A4DB0079AA47 /* MyShop.xib */,
+				AF3424F71D7A023F0079AA47 /* SalesViewController.xib */,
+				AF3424FD1D7A09B70079AA47 /* PurchaseViewController.xib */,
+				AF3424C91D78A4DB0079AA47 /* ProfileViewController.xib */,
+				AF3424CA1D78A4DB0079AA47 /* RegisterClothViewController.xib */,
+				AF05F0E11D83D39200C4D963 /* ViewOfferViewController.xib */,
+				AF3424CB1D78A4DB0079AA47 /* ViewController3.xib */,
+				AF3424CC1D78A4DB0079AA47 /* ViewController4.xib */,
+				AF3424CD1D78A4DB0079AA47 /* ViewController5.xib */,
+				AF3424CE1D78A4DB0079AA47 /* WebPlusAppViewController.xib */,
+				AF3424CF1D78A4DB0079AA47 /* WeightViewController.xib */,
+			);
+			name = "View Scenes";
+			path = "clothes/View Scenes";
+			sourceTree = "<group>";
+		};
+		AF354CB91C415F8400923999 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				AF354CBA1C415FA200923999 /* Bolts.framework */,
+				AF354CBB1C415FA200923999 /* Parse.framework */,
+				AF354CBC1C415FA200923999 /* ParseFacebookUtils.framework */,
+				AF354CBD1C415FA200923999 /* ParseFacebookUtilsV4.framework */,
+				AF354CBE1C415FA200923999 /* ParseTwitterUtils.framework */,
+				AF354CBF1C415FA200923999 /* ParseUI.framework */,
+			);
+			name = Parse;
+			path = clothes/Parse;
+			sourceTree = "<group>";
+		};
+		AF354CDA1C4160A900923999 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				AF354CD81C41606D00923999 /* libsqlite3.tbd */,
+				AF354CD61C41605A00923999 /* libz.tbd */,
+				AF354CD41C41605200923999 /* SystemConfiguration.framework */,
+				AF354CD21C41604900923999 /* StoreKit.framework */,
+				AF354CD01C41604100923999 /* Security.framework */,
+				AF354CCE1C41603A00923999 /* QuartzCore.framework */,
+				AF354CCC1C41603300923999 /* CoreLocation.framework */,
+				AF354CCA1C41602A00923999 /* CoreGraphics.framework */,
+				AF354CC81C41601F00923999 /* CFNetwork.framework */,
+				AF354CC61C41601500923999 /* AudioToolbox.framework */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		AF3D28581D807E7800105109 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				AF05F0EB1D85FA3000C4D963 /* closeButton.png */,
+				AF3D28591D807E7800105109 /* adBackground.png */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		AFCE9EA21C27199000C20F5C = {
+			isa = PBXGroup;
+			children = (
+				AF354CDA1C4160A900923999 /* Dependencies */,
+				AFD292BC1D87347800FAE284 /* Frameworks */,
+				AF354CB91C415F8400923999 /* Parse */,
+				AF3423001D78A0580079AA47 /* Images */,
+				AF3423CE1D78A12A0079AA47 /* Libraries */,
+				AF3424721D78A4970079AA47 /* View Controllers */,
+				AF3424B41D78A4DB0079AA47 /* View Scenes */,
+				AFCE9EB81C27199000C20F5C /* Assets.xcassets */,
+				AFCE9EBA1C27199000C20F5C /* LaunchScreen.storyboard */,
+				AFCE9EBD1C27199000C20F5C /* Info.plist */,
+				AFD292B71D87337700FAE284 /* clothes.xcdatamodeld */,
+				AFCE9EAC1C27199000C20F5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCE9EAC1C27199000C20F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCE9EAB1C27199000C20F5C /* clothes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD292BC1D87347800FAE284 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFD292BD1D87347800FAE284 /* FBSDKCoreKit.framework */,
+				AFD292BE1D87347800FAE284 /* FBSDKLoginKit.framework */,
+				AFD292BF1D87347800FAE284 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			path = clothes/Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCE9EAA1C27199000C20F5C /* clothes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCE9EC01C27199000C20F5C /* Build configuration list for PBXNativeTarget "clothes" */;
+			buildPhases = (
+				AFCE9EA71C27199000C20F5C /* Sources */,
+				AFCE9EA81C27199000C20F5C /* Frameworks */,
+				AFCE9EA91C27199000C20F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clothes;
+			productName = AnimatedTabControl;
+			productReference = AFCE9EAB1C27199000C20F5C /* clothes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCE9EA31C27199000C20F5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Calcagniti;
+				TargetAttributes = {
+					AFCE9EAA1C27199000C20F5C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 2F4NCR9C45;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = AFCE9EA61C27199000C20F5C /* Build configuration list for PBXProject "clothes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFCE9EA21C27199000C20F5C;
+			productRefGroup = AFCE9EAC1C27199000C20F5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCE9EAA1C27199000C20F5C /* clothes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFCE9EA91C27199000C20F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3424E51D78A4DB0079AA47 /* RegisterClothViewController.xib in Resources */,
+				AF25F0651D95AEFC004E5079 /* IAPViewController.xib in Resources */,
+				AF3424D61D78A4DB0079AA47 /* DetailFullScreenImageViewController.xib in Resources */,
+				AF3424DA1D78A4DB0079AA47 /* HeightViewController.xib in Resources */,
+				AF3423BB1D78A0580079AA47 /* trabalho.png in Resources */,
+				AF3423931D78A0580079AA47 /* loginBackground.png in Resources */,
+				AF3423981D78A0580079AA47 /* signInButton.png in Resources */,
+				AF3424251D78A2930079AA47 /* jeansRemoveBack.jpeg in Resources */,
+				AF34237A1D78A0580079AA47 /* jacketsIcon.png in Resources */,
+				AF3424FE1D7A09B70079AA47 /* PurchaseViewController.xib in Resources */,
+				AF3424331D78A2930079AA47 /* residencia.png in Resources */,
+				AF3423C11D78A0580079AA47 /* age.png in Resources */,
+				AF34238F1D78A0580079AA47 /* clothesIcon.png in Resources */,
+				AF3424EA1D78A4DB0079AA47 /* WeightViewController.xib in Resources */,
+				AF3423B91D78A0580079AA47 /* praia.png in Resources */,
+				AF3423BD1D78A0580079AA47 /* typeFilter.png in Resources */,
+				AF3424DF1D78A4DB0079AA47 /* MyClosets.xib in Resources */,
+				AF34242F1D78A2930079AA47 /* menuLooks.png in Resources */,
+				AF34242A1D78A2930079AA47 /* menuCalendar.png in Resources */,
+				AF3424361D78A2930079AA47 /* upperArrow.png in Resources */,
+				AF3423C61D78A0580079AA47 /* maleIcon1.png in Resources */,
+				AF34236E1D78A0580079AA47 /* bikinisIcon.png in Resources */,
+				AF3423821D78A0580079AA47 /* shoesCloset.png in Resources */,
+				AF3423A61D78A0580079AA47 /* ldressIcon.png in Resources */,
+				AF3424D21D78A4DB0079AA47 /* AppearanceViewController.xib in Resources */,
+				AF3424E91D78A4DB0079AA47 /* WebPlusAppViewController.xib in Resources */,
+				AF3423861D78A0580079AA47 /* socketsIcon.png in Resources */,
+				AF3424E81D78A4DB0079AA47 /* ViewController5.xib in Resources */,
+				AF34239F1D78A0580079AA47 /* esporte.png in Resources */,
+				AF3423B31D78A0580079AA47 /* lunderwearsIcon.png in Resources */,
+				AF34236D1D78A0580079AA47 /* basketClothesIcon.png in Resources */,
+				AF3423A51D78A0580079AA47 /* lblousesIcon.png in Resources */,
+				AF34236B1D78A0580079AA47 /* backgroundCloset.png in Resources */,
+				AF3423E51D78A12A0079AA47 /* Klavika.ttf in Resources */,
+				AF3423A71D78A0580079AA47 /* lfitnessIcon.png in Resources */,
+				AF3423A11D78A0580079AA47 /* festaFantasia.png in Resources */,
+				AF34239E1D78A0580079AA47 /* cotidiano.png in Resources */,
+				AF34242C1D78A2930079AA47 /* menuCloset3.png in Resources */,
+				AF3423701D78A0580079AA47 /* closetBackground.png in Resources */,
+				AF3423791D78A0580079AA47 /* ikeaCloset.png in Resources */,
+				AF34238C1D78A0580079AA47 /* underwearsIcon.png in Resources */,
+				AF3424271D78A2930079AA47 /* menuArrow.png in Resources */,
+				AF3423AB1D78A0580079AA47 /* lpantsIcon.png in Resources */,
+				AF3423761D78A0580079AA47 /* fitnessIcon.png in Resources */,
+				AF3423C71D78A0580079AA47 /* menuShop.png in Resources */,
+				AF3424DD1D78A4DB0079AA47 /* LogOut.xib in Resources */,
+				AF3423C01D78A0580079AA47 /* account.png in Resources */,
+				AF3423BC1D78A0580079AA47 /* trilha.png in Resources */,
+				AF3424241D78A2930079AA47 /* height.png in Resources */,
+				AF34237E1D78A0580079AA47 /* scissors.png in Resources */,
+				AF3423BF1D78A0580079AA47 /* verao.png in Resources */,
+				AF3423B41D78A0580079AA47 /* natal.png in Resources */,
+				AF34238A1D78A0580079AA47 /* takeShotBig.png in Resources */,
+				AF3423B51D78A0580079AA47 /* occasionFilter.png in Resources */,
+				AF3423731D78A0580079AA47 /* customCrop.png in Resources */,
+				AF3423801D78A0580079AA47 /* shirtsIcon.png in Resources */,
+				AF3423911D78A0580079AA47 /* facebookSignInIcon.png in Resources */,
+				AF3423B21D78A0580079AA47 /* ltShirtsIcon.png in Resources */,
+				AF3423921D78A0580079AA47 /* launcherScreen.png in Resources */,
+				AF3424E31D78A4DB0079AA47 /* MyShop.xib in Resources */,
+				AF3423B71D78A0580079AA47 /* outono.png in Resources */,
+				AF05F0EC1D85FA3000C4D963 /* closeButton.png in Resources */,
+				AF34239C1D78A0580079AA47 /* campo.png in Resources */,
+				AF3423A81D78A0580079AA47 /* ljacketsIcon.png in Resources */,
+				AF3424381D78A2930079AA47 /* weightLoad.png in Resources */,
+				AF3423841D78A0580079AA47 /* shoesIconAdd.png in Resources */,
+				AF34237F1D78A0580079AA47 /* search.png in Resources */,
+				AF3423AC1D78A0580079AA47 /* lpijamasIcon.png in Resources */,
+				AF3423781D78A0580079AA47 /* gorgeousCloset.png in Resources */,
+				AF34236C1D78A0580079AA47 /* backgroundClosets.png in Resources */,
+				AF3423C41D78A0580079AA47 /* gender.png in Resources */,
+				AF3423A01D78A0580079AA47 /* festa.png in Resources */,
+				AF3424281D78A2930079AA47 /* menuBagagem.png in Resources */,
+				AF3423751D78A0580079AA47 /* editText.png in Resources */,
+				AF34242E1D78A2930079AA47 /* menuLogout.png in Resources */,
+				AF3424DC1D78A4DB0079AA47 /* LoginViewController.xib in Resources */,
+				AF3424291D78A2930079AA47 /* menuBasket.png in Resources */,
+				AF3423721D78A0580079AA47 /* controlPoint.png in Resources */,
+				AF34238D1D78A0580079AA47 /* woodCloset.png in Resources */,
+				AF3423741D78A0580079AA47 /* dressIcon.png in Resources */,
+				AF3424371D78A2930079AA47 /* weight.png in Resources */,
+				AF3423871D78A0580079AA47 /* standardCloset.png in Resources */,
+				AF3423811D78A0580079AA47 /* shirtsIconAdd.png in Resources */,
+				AF3424E61D78A4DB0079AA47 /* ViewController3.xib in Resources */,
+				AF3423881D78A0580079AA47 /* sutiasIcon.png in Resources */,
+				AF3424D81D78A4DB0079AA47 /* EditClothViewController.xib in Resources */,
+				AF3423971D78A0580079AA47 /* passwordIcon.png in Resources */,
+				AF3423A21D78A0580079AA47 /* inverno.png in Resources */,
+				AF3424D41D78A4DB0079AA47 /* CreateLookViewController.xib in Resources */,
+				AF3424311D78A2930079AA47 /* menuProfile.png in Resources */,
+				AF34242D1D78A2930079AA47 /* menuGames.png in Resources */,
+				AF34238E1D78A0580079AA47 /* 12.png in Resources */,
+				AF3424211D78A2930079AA47 /* clothesIconForMenu.png in Resources */,
+				AF3424DB1D78A4DB0079AA47 /* HomeplaceViewController.xib in Resources */,
+				AF3423B01D78A0580079AA47 /* lsocketsIcon.png in Resources */,
+				AF3423BA1D78A0580079AA47 /* primavera.png in Resources */,
+				AF34242B1D78A2930079AA47 /* menuCloset.png in Resources */,
+				AF3424DE1D78A4DB0079AA47 /* MenuViewController.xib in Resources */,
+				AFCE9EBC1C27199000C20F5C /* LaunchScreen.storyboard in Resources */,
+				AF3423B81D78A0580079AA47 /* piscina.png in Resources */,
+				AFCE9EB91C27199000C20F5C /* Assets.xcassets in Resources */,
+				AF3424E01D78A4DB0079AA47 /* MyEvents.xib in Resources */,
+				AF3D285A1D807E7800105109 /* adBackground.png in Resources */,
+				AF3424E41D78A4DB0079AA47 /* ProfileViewController.xib in Resources */,
+				AF3424D71D78A4DB0079AA47 /* EditClosetViewController.xib in Resources */,
+				AF3424EC1D78A5C10079AA47 /* Main.storyboard in Resources */,
+				AFD292BB1D8733AE00FAE284 /* saleIcon.png in Resources */,
+				AF3424D91D78A4DB0079AA47 /* GenderViewController.xib in Resources */,
+				AF34239D1D78A0580079AA47 /* churrasco.png in Resources */,
+				AF3423AF1D78A0580079AA47 /* lskirtsIcon.png in Resources */,
+				AF3423901D78A0580079AA47 /* clothesLoginThemeSong3.mp3 in Resources */,
+				AF3424E11D78A4DB0079AA47 /* MyGarbage.xib in Resources */,
+				AF3423831D78A0580079AA47 /* shoesIcon.png in Resources */,
+				AF3423961D78A0580079AA47 /* newLogoText.png in Resources */,
+				AF3423AD1D78A0580079AA47 /* lshirtsIcon.png in Resources */,
+				AF34237C1D78A0580079AA47 /* name.png in Resources */,
+				AF34239A1D78A0580079AA47 /* usernameIcon.png in Resources */,
+				AF3424D11D78A4DB0079AA47 /* AgeViewController.xib in Resources */,
+				AF3424D01D78A4DB0079AA47 /* AccountViewController.xib in Resources */,
+				AF3424351D78A2930079AA47 /* shape.png in Resources */,
+				AF3424341D78A2930079AA47 /* sex.png in Resources */,
+				AF3423B11D78A0580079AA47 /* lsutiasIcon.png in Resources */,
+				AF3424D31D78A4DB0079AA47 /* ChangeClothPropertiesViewController.xib in Resources */,
+				AF3423BE1D78A0580079AA47 /* typeFilterVector.png in Resources */,
+				AF3424301D78A2930079AA47 /* menuPlusApp.png in Resources */,
+				AF3423B61D78A0580079AA47 /* occasionFilterVector.png in Resources */,
+				AF3423A41D78A0580079AA47 /* lbikinisIcon.png in Resources */,
+				AF3423AA1D78A0580079AA47 /* looksBackground.png in Resources */,
+				AF3423A91D78A0580079AA47 /* lmoletonsIcon.png in Resources */,
+				AF3424E21D78A4DB0079AA47 /* MyLooks.xib in Resources */,
+				AF3423AE1D78A0580079AA47 /* lshoesIcon.png in Resources */,
+				AF3424D51D78A4DB0079AA47 /* CustomCropViewController.xib in Resources */,
+				AF3424F81D7A023F0079AA47 /* SalesViewController.xib in Resources */,
+				AF3423891D78A0580079AA47 /* takeShot.png in Resources */,
+				AF3423C21D78A0580079AA47 /* appearance.png in Resources */,
+				AF34236F1D78A0580079AA47 /* camera.png in Resources */,
+				AF3423A31D78A0580079AA47 /* lacessoriesIcon.png in Resources */,
+				AF3423C31D78A0580079AA47 /* femaleIcon1.png in Resources */,
+				AF34236A1D78A0580079AA47 /* acessoriesIcon.png in Resources */,
+				AF3423941D78A0580079AA47 /* loginBackground02.png in Resources */,
+				AF34239B1D78A0580079AA47 /* aniversario.png in Resources */,
+				AF05F0E21D83D39200C4D963 /* ViewOfferViewController.xib in Resources */,
+				AF3423771D78A0580079AA47 /* getAlbum.png in Resources */,
+				AF3424E71D78A4DB0079AA47 /* ViewController4.xib in Resources */,
+				AF3423851D78A0580079AA47 /* skirtsIcon.png in Resources */,
+				AF3423711D78A0580079AA47 /* clothesStand.png in Resources */,
+				AF3D28601D82037E00105109 /* EditAdViewController.xib in Resources */,
+				AF34237B1D78A0580079AA47 /* menuShow.png in Resources */,
+				AF34238B1D78A0580079AA47 /* tShirtsIcon.png in Resources */,
+				AF34237D1D78A0580079AA47 /* pantsIcon.png in Resources */,
+				AF3423951D78A0580079AA47 /* logoIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCE9EA71C27199000C20F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3423DE1D78A12A0079AA47 /* AppCustomColor.swift in Sources */,
+				AF3423E11D78A12A0079AA47 /* Device.swift in Sources */,
+				AF3423E61D78A12A0079AA47 /* Look.swift in Sources */,
+				AF34249C1D78A4970079AA47 /* EditClothViewController.swift in Sources */,
+				AF3424A01D78A4970079AA47 /* AppDelegate.swift in Sources */,
+				AF34249A1D78A4970079AA47 /* DetailFullScreenImageViewController.swift in Sources */,
+				AF3423E31D78A12A0079AA47 /* Enumerators.swift in Sources */,
+				AF25F0621D95AEBA004E5079 /* IAPViewController.swift in Sources */,
+				AF3424AF1D78A4970079AA47 /* MyEvents.swift in Sources */,
+				AF3D28571D806C7A00105109 /* Ad.swift in Sources */,
+				AF3424A21D78A4970079AA47 /* CreateLookViewController.swift in Sources */,
+				AF3424A71D78A4970079AA47 /* GenderViewController.swift in Sources */,
+				AF3424B01D78A4970079AA47 /* MyShop.swift in Sources */,
+				AF3423FC1D78A1CF0079AA47 /* SCLAlertViewStyleKit.m in Sources */,
+				AF3424F11D78AD070079AA47 /* ViewController4.swift in Sources */,
+				AF3423DF1D78A12A0079AA47 /* Closet.swift in Sources */,
+				AF3424981D78A4970079AA47 /* ChangeClothPropertiesViewController.swift in Sources */,
+				AF3423DD1D78A12A0079AA47 /* Alert.swift in Sources */,
+				AF3423FA1D78A1CF0079AA47 /* SCLAlertView.m in Sources */,
+				AFD292B91D87337700FAE284 /* clothes.xcdatamodeld in Sources */,
+				AF3424AE1D78A4970079AA47 /* WeightViewController.swift in Sources */,
+				AF3423FD1D78A1CF0079AA47 /* SCLButton.m in Sources */,
+				AF3424991D78A4970079AA47 /* CustomCropViewController.swift in Sources */,
+				AF3D285D1D82034C00105109 /* EditAdViewController.swift in Sources */,
+				AF3424F01D78AD070079AA47 /* ViewController3.swift in Sources */,
+				AF3424A81D78A4970079AA47 /* HeightViewController.swift in Sources */,
+				AF3424FB1D7A09980079AA47 /* PurchaseViewController.swift in Sources */,
+				AF3423E01D78A12A0079AA47 /* Cloth.swift in Sources */,
+				AF3423E81D78A12A0079AA47 /* User.swift in Sources */,
+				AF34249E1D78A4970079AA47 /* RegisterClothViewController.swift in Sources */,
+				AF3424AD1D78A4970079AA47 /* WebPlusAppViewController.swift in Sources */,
+				AF3424A11D78A4970079AA47 /* LoginViewController.swift in Sources */,
+				AF3424001D78A1CF0079AA47 /* UIImage+ImageEffects.m in Sources */,
+				AF25F0591D91BFBD004E5079 /* TransitionManager2.swift in Sources */,
+				AF34249B1D78A4970079AA47 /* EditClosetViewController.swift in Sources */,
+				AF3424F51D7A02160079AA47 /* SalesViewController.swift in Sources */,
+				AF3424A51D78A4970079AA47 /* AgeViewController.swift in Sources */,
+				AF3424A31D78A4970079AA47 /* MyLooks.swift in Sources */,
+				AF3423E91D78A12A0079AA47 /* Window.swift in Sources */,
+				AF34249D1D78A4970079AA47 /* MyClosets.swift in Sources */,
+				AF25F0571D8B212C004E5079 /* TransitionManager.swift in Sources */,
+				AF3423FE1D78A1CF0079AA47 /* SCLTextView.m in Sources */,
+				AF3423FB1D78A1CF0079AA47 /* SCLAlertViewResponder.m in Sources */,
+				AF05F0EA1D84C46E00C4D963 /* UIButton+Badge.m in Sources */,
+				AF3424AB1D78A4970079AA47 /* MenuViewController.swift in Sources */,
+				AF34249F1D78A4970079AA47 /* MyGarbage.swift in Sources */,
+				AF3424AA1D78A4970079AA47 /* LogOut.swift in Sources */,
+				AF3424A91D78A4970079AA47 /* HomeplaceViewController.swift in Sources */,
+				AF3424AC1D78A4970079AA47 /* ProfileViewController.swift in Sources */,
+				AF3423FF1D78A1CF0079AA47 /* SCLTimerDisplay.m in Sources */,
+				AF05F0E91D84C46E00C4D963 /* UIBarButtonItem+Badge.m in Sources */,
+				AF3424F21D78AD070079AA47 /* ViewController5.swift in Sources */,
+				AF05F0DF1D83D23F00C4D963 /* ViewOfferViewController.swift in Sources */,
+				AF3424A61D78A4970079AA47 /* AppearanceViewController.swift in Sources */,
+				AF3424A41D78A4970079AA47 /* AccountViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFCE9EBA1C27199000C20F5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCE9EBB1C27199000C20F5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = clothes;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFCE9EBE1C27199000C20F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFCE9EBF1C27199000C20F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFCE9EC11C27199000C20F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2F4NCR9C45;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clothes/Parse",
+					"$(PROJECT_DIR)/clothes",
+					"$(PROJECT_DIR)/clothes/Frameworks",
+				);
+				INFOPLIST_FILE = clothes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcagniti.clothes;
+				PRODUCT_NAME = clothes;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "clothes/Libraries/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AFCE9EC21C27199000C20F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2F4NCR9C45;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clothes/Parse",
+					"$(PROJECT_DIR)/clothes",
+					"$(PROJECT_DIR)/clothes/Frameworks",
+				);
+				INFOPLIST_FILE = clothes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcagniti.clothes;
+				PRODUCT_NAME = clothes;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "clothes/Libraries/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCE9EA61C27199000C20F5C /* Build configuration list for PBXProject "clothes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCE9EBE1C27199000C20F5C /* Debug */,
+				AFCE9EBF1C27199000C20F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCE9EC01C27199000C20F5C /* Build configuration list for PBXNativeTarget "clothes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCE9EC11C27199000C20F5C /* Debug */,
+				AFCE9EC21C27199000C20F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFD292B71D87337700FAE284 /* clothes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFD292B81D87337700FAE284 /* AnimatedTabControl.xcdatamodel */,
+			);
+			currentVersion = AFD292B81D87337700FAE284 /* AnimatedTabControl.xcdatamodel */;
+			name = clothes.xcdatamodeld;
+			path = clothes/clothes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFCE9EA31C27199000C20F5C /* Project object */;
+}
