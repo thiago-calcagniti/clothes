@@ -731,7 +731,7 @@ class DetailFullScreenImageViewController: UIViewController, UIScrollViewDelegat
                 let adName = self.adInfo[1] as! UITextField
                 print("Ad \(adName.text!) was succesfully saved.")
                 if let user = PFUser.current() {
-                    user.incrementKey("ads", byAmount: -1)
+//                    user.incrementKey("ads", byAmount: -1)
                     user.saveInBackground(block: { (success, error) in
                         if success {
                             print("User consumed one Ad.")

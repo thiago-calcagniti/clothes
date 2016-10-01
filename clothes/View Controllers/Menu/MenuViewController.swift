@@ -58,8 +58,8 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         let VC8image = "menuProfile.png"
 
         
-        myViewControllers = [myVC1, myVC2, myVC3, myVC4, myVC5, myVC6, myVC9]
-        myMenuImages = [VC1image, VC2image, VC3image, VC4image, VC5image, VC6image, VC8image]
+        myViewControllers = [myVC1, myVC2, myVC3, myVC4, myVC5]
+        myMenuImages = [VC1image, VC2image, VC3image, VC4image, VC5image]
         
 
         let tableView = UITableView(frame: CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight), style: UITableViewStyle.grouped)
