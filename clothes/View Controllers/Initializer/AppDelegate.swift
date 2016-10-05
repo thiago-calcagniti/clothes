@@ -23,15 +23,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // [Optional] Power your app with Local Datastore. For more info, go to
         // https://parse.com/docs/ios/guide#local-datastore
         Parse.enableLocalDatastore()
-        
-//        // Initialize Parse.
-//        Parse.setApplicationId("yyuEyPCSLmSzTiHo4pPWsXHqdetieSI74ECZa5ll",
-//            clientKey: "T5N786PdKYnT405LesN1Ii3S0d0f7EHzRObp1JPb")
-        
-        // Conta do Leandrao
-        Parse.setApplicationId("iXEbk64RXUe5iYRZKdDSOO89e1zNP8IbinduQYqP",
-            clientKey: "SLujOCVe47n1oEWSQt3fQQ0Sc3kLPPUQUoVdnaxS")
 
+        // Parse Heroku
+        let config = ParseClientConfiguration(block: {
+            (ParseMutableClientConfiguration) -> Void in
+            ParseMutableClientConfiguration.applicationId = "iXEbk64RXUe5iYRZKdDSOO89e1zNP8IbinduQYqP";
+            ParseMutableClientConfiguration.clientKey = "eMJU5y8uNNCHZUrJ8vw66Mk8KNK2yTcID9hfKqj0";
+            ParseMutableClientConfiguration.server = "http://plusclothes.herokuapp.com/parse";
+        });
+        Parse.initialize(with: config);
+  
+        
+        
 
         print("\nLOGIN CHECK")
         // Check if user is already logged in
