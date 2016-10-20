@@ -55,8 +55,6 @@ class EditClosetViewController: UIViewController, UITableViewDataSource, UITable
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        print("Oi meu index eh \(closetIndex)")
         
         let types = closet.getTypes()
         for type in types {
@@ -457,7 +455,7 @@ class EditClosetViewController: UIViewController, UITableViewDataSource, UITable
         selectedCellView.backgroundColor = AppCustomColor().lightGray
         cell.selectedBackgroundView = selectedCellView
         cell.backgroundColor = AppCustomColor().gray
-        let type = typesOfClothesInCloset[(indexPath as NSIndexPath).item]
+        let type = typesOfClothesInCloset[indexPath.item]
         let image = UIImage(named: Enumerators().getImageForClothType(type))
         cell.clothTypeImage.image = image!.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
         cell.typeOfClothDescription.text =  typesOfClothesInCloset[(indexPath as NSIndexPath).item]

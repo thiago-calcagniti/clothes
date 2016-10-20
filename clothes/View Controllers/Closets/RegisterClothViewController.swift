@@ -164,7 +164,7 @@ class RegisterClothViewController: UIViewController, UIPickerViewDataSource, UIP
         let closetId = closet!.getId()
         let PFCloth = PFObject(className: "Clothes")
         PFCloth["parentCloset"] = closetId
-        PFCloth["type"] = "\(choosenClothType)"
+        PFCloth["type"] = choosenClothType as! String
         PFCloth["name"] = nameCreated
         PFCloth["ownerId"] = (PFUser.current()?.objectId)!
         PFCloth["occasions"] = []

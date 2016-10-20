@@ -62,7 +62,8 @@ class PurchaseViewController: UIViewController, UITableViewDelegate, UITableView
                         if let objects = objects {
                             for object in objects {
                                 let id = object.objectId!
-                                let clothId = object["clothesId"] as! String
+//                                let clothId = object["clothesId"] as! String
+                                let clothId = ""
                                 let ownerId = object["ownerId"] as! String
                                 let title = object["titleAd"] as! String
                                 let description = object["descriptionAd"] as! String
