@@ -24,14 +24,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // https://parse.com/docs/ios/guide#local-datastore
         Parse.enableLocalDatastore()
 
+        
         // Parse Heroku
         let config = ParseClientConfiguration(block: {
             (ParseMutableClientConfiguration) -> Void in
-            ParseMutableClientConfiguration.applicationId = "iXEbk64RXUe5iYRZKdDSOO89e1zNP8IbinduQYqP";
-            ParseMutableClientConfiguration.clientKey = "eMJU5y8uNNCHZUrJ8vw66Mk8KNK2yTcID9hfKqj0";
-            ParseMutableClientConfiguration.server = "http://plusclothes.herokuapp.com/parse";
-        });
-        Parse.initialize(with: config);
+            ParseMutableClientConfiguration.applicationId = "iXEbk64RXUe5iYRZKdDSOO89e1zNP8IbinduQYqP"
+            ParseMutableClientConfiguration.clientKey = "eMJU5y8uNNCHZUrJ8vw66Mk8KNK2yTcID9hfKqj0"
+            ParseMutableClientConfiguration.server = "http://plusclothes.herokuapp.com/parse"
+        })
+        Parse.initialize(with: config)
   
         
         

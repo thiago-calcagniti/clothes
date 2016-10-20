@@ -185,6 +185,7 @@ class User {
         if (email == "") {
             Alert(controller: loginController).message("Hum...", message: "Preencha o campo de email com seu email", confirmationTitle: "Vou preencher")
         } else {
+            
             PFUser.requestPasswordResetForEmail(inBackground: email, block: { (success, error) in
                 if success {
                     let resetPasswordMailSentPrompt = UIAlertController(title: "Solicitação Enviada", message: "Enviamos um link de reset de password para seu email", preferredStyle: UIAlertControllerStyle.alert)
